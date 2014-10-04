@@ -1,8 +1,4 @@
-###
-# Blog settings
-###
-
-# Time.zone = "UTC"
+Time.zone = "EST"
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
@@ -83,6 +79,10 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
 
 # Build-specific configuration
 configure :build do
