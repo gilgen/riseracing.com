@@ -1,38 +1,189 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-  </head>
-  <body>
+    <meta name="generator" content="WordPress 3.9.2" />
+    <meta name="description" content="BNOTIONS is a mobile, data and analytics innovation firm. We are the partner of choice for organizations with the desire to disrupt through innovation." />
+    <meta name="keywords" content="mobile, strategy, innovation, data, analytics" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1, user-scalable=yes, minimal-ui">
+    <link rel="alternate" type="application/rss+xml" title="BNOTIONS &raquo; Home Comments Feed" href="http://www.bnotions.com/home/feed/" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.bnotions.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.bnotions.com/wp-includes/wlwmanifest.xml" />
+    <link rel='prev' title='Sample Page' href='http://www.bnotions.com/sample-page/' />
+    <link rel='next' title='Services' href='http://www.bnotions.com/services/' />
+    <link rel='shortlink' href='http://www.bnotions.com/' />
+    <link rel="canonical" href="http://www.bnotions.com/" />
+    <link rel="icon" href="/favicon.png">
+    <link rel="author" href="https://plus.google.com/+Bnotionsworld" />
+    <link rel="publisher" href="https://plus.google.com/+Bnotionsworld" />
+    <link rel="stylesheet" type="text/css" href="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/styles/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/styles/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/styles/css/jquery.mCustomScrollbar.css" />
 
-    <div id="main" role="main">
-      <%= yield %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-55348961-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <style type="text/css">
+      .recentcomments a{ display:inline !important;padding:0 !important;margin:0 !important; }
+    </style>
+
+    <title>Rise Racing 2015</title>
+  </head>
+
+  <body class="home page page-id-27 page-template page-template-t_home-php">
+    <div class="logo--nav">
+      <div class="nav--state nav--closed">
+        <nav class="main_nav">
+          <div class="menu-main-navigation-container">
+            <ul id="menu-main-navigation" class="menu">
+              <li id="menu-item-7523" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27 current_page_item menu-item-7523">
+                <a href="http://www.bnotions.com/">Home</a>
+              </li>
+              <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
+                <a href="http://www.bnotions.com/services/">Roster</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
 
-    <aside>
-      <h2>Rise Racing</h2>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-        <% end %>
-      </ol>
 
-      <h2>Tags</h2>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-        <% end %>
-      </ol>
+    <div class="site--content">
+      <div class="featured_article--full ">
+        <section class="featured_article">
+          <div class="bg_img_wrapper" style="background-image: url(http://www.bnotions.com/wp-content/uploads/2014/08/Loyalty_Banner.jpg);"></div>
+          <div class="content">
+            <div class="article_categories">Latest Insight</div>
+            <h1>Loyalty&#8217;s Power</h1>
+            <section class="excerpt">Where it’s been, where it’s going, and how it can transform industries</section>
+            <nav>
+              <a class="btn light" href="http://www.bnotions.com/the-power-of-loyalty/" title="Loyalty&#8217;s Power">Read more</a>
+            </nav>
+          </div>
+        </section>
+      </div>
 
-      <h2>By Year</h2>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-        <% end %>
-      </ol>
-    </aside>
+      <hr />
+
+      <div class="case_studies--full">
+        <section class="case_studies">
+          <a href="http://www.bnotions.com/casestudies/c-spire-percs/" title="C Spire PERCS">
+            <div class="case_study--full ">
+              <article class="case_study">
+                <div class="bg_img_wrapper" style="background-image: url(http://www.bnotions.com/wp-content/uploads/2014/03/header-500px1.jpg);"></div>
+                <div class="case_study--type Mobile">Results</div>
+                <div class="content">
+                  <div class="case_study--categories label">Loyalty & Wireless</div>
+                  <h1>C Spire PERCS</h1>
+                  <section class="excerpt">
+                    <p>Learn how C Spire Wireless&#8217;s flagship loyalty program grew into a flagship app, driving referrals and acquisitions.</p>
+                  </section>
+                </div>
+              </article>
+            </div>
+          </a>
+
+          <a href="http://www.bnotions.com/casestudies/500px/" title="500px">
+            <div class="case_study--full ">
+              <article class="case_study">
+                <div class="bg_img_wrapper" style="background-image: url(http://www.bnotions.com/wp-content/uploads/2014/03/header-cspire3.jpg);"></div>
+                <div class="case_study--type Smart TV">Roster</div>
+                <div class="content">
+                  <div class="case_study--categories label">Engineering & Technology</div>
+                  <h1>500px</h1>
+                  <section class="excerpt">
+                    <p>Discover how 500px scaled their community, gaining five platforms and a million plus members in under a year.</p>
+                  </section>
+                </div>
+              </article>
+            </div>
+          </a>
+
+          <a href="http://www.bnotions.com/casestudies/indigo_mobile/" title="Indigo Mobile">
+            <div class="case_study--full ">
+              <article class="case_study">
+                <div class="bg_img_wrapper" style="background-image: url(http://www.bnotions.com/wp-content/uploads/2014/03/header-indigo1.jpg);"></div>
+                <div class="case_study--type Mobile">Things</div>
+                <div class="content">
+                  <div class="case_study--categories label">Loyalty & Retail</div>
+                  <h1>Indigo Mobile</h1>
+                  <section class="excerpt">
+                    <p>Find out how Indigo impressed with their mCommerce and loyalty app, increasing sales and consumer spend.</p>
+                  </section>
+                </div>
+              </article>
+            </div>
+          </a>
+        </section>
+      </div>
+
+      <div class="footer--full">
+        <footer>
+          <p>&copy; 2014 - 2015 Rise Racing</p>
+          <ul class="social-links">
+            <!-- <li class="instagram"> -->
+            <!--   <a href="http://instagram.com/riseracin"> -->
+            <!--     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="17.4 17.4 41.2 41.2" xml:space="preserve" class="style0"> -->
+            <!--       <style>.style0{enable-background: new 17.4 17.4 41.2 41.2;}</style> -->
+            <!--       <path d="M17.4 30.1h9.5v28.5h-9.5V30.1z M31.7 30.1h9.5v3.5c3-1.8 6.6-3.5 9.5-3.5c6.3 0 7.9 6.3 7.9 6.3 v22.2h-9.5v-19c-1.2-3.7-4.4-3.6-7.9-0.4v19.4h-9.5V30.1z M22.2 17.4c2.6 0 4.8 2.1 4.8 4.8c0 2.6-2.1 4.8-4.8 4.8 c-2.6 0-4.8-2.1-4.8-4.8C17.4 19.5 19.5 17.4 22.2 17.4z" class="style1"> -->
+            <!--       </path> -->
+            <!--     </svg> -->
+            <!--   </a> -->
+            <!-- </li> -->
+            <li class="twitter">
+              <a href="https://twitter.com/riseracing" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 19.5" xml:space="preserve" class="style0"><style>.style0{enable-background: new 0 0 24 19.5;}</style><path d="M21.5 4.9c0 0.2 0 0.4 0 0.6c0 6.5-5 14-14 14c-2.8 0-5.4-0.8-7.5-2.2c0.4 0 0.8 0.1 1.2 0.1 c2.3 0 4.4-0.8 6.1-2.1c-2.2 0-4-1.5-4.6-3.4c0.3 0.1 0.6 0.1 0.9 0.1c0.4 0 0.9-0.1 1.3-0.2c-2.3-0.5-4-2.4-4-4.8c0 0 0 0 0-0.1 c0.7 0.4 1.4 0.6 2.2 0.6C1.9 6.6 1 5.1 1 3.4c0-0.9 0.2-1.7 0.7-2.5c2.4 3 6.1 4.9 10.1 5.1c-0.1-0.4-0.1-0.7-0.1-1.1 c0-2.7 2.2-4.9 4.9-4.9c1.4 0 2.7 0.6 3.6 1.6c1.1-0.2 2.2-0.6 3.1-1.2c-0.4 1.1-1.1 2.1-2.2 2.7c1-0.1 1.9-0.4 2.8-0.8 C23.3 3.3 22.5 4.2 21.5 4.9z" class="style1"></path></svg>
+              </a>
+            </li>
+            <li class="facebook">
+              <a href="https://www.facebook.com/riseracing" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 117.7 226.6" xml:space="preserve" class="style0"><style>.style0{enable-background: new 0 0 117.7 226.6;}</style><path d="M34.8 226.6V123.2H0V82.9h34.8V53.2C34.8 18 55 0 86 0c14.7 0 27 1 31 1.6v36l-21.3 0 c-16.7 0-20 7.9-20 19.6v25.7h39.9l-5.2 40.3H76.4v103.4H34.8z" class="style1"></path></svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+    </div>
+
+    <div class="nav_trigger">
+      <div class="site_logo">
+        <div class="site_icon">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 29 23.5" enable-background="new 0 0 29 23.5" xml:space="preserve">
+            <style>
+              .style0{fill: #FFFFFF;}
+            </style>
+            <g>
+              <rect width="29" height="3.5" class="style0 top"></rect>
+              <rect y="10" width="29" height="3.5" class="style0 mid"></rect>
+              <rect y="20" width="29" height="3.5" class="style0 bottom"></rect>
+            </g>
+          </svg>
+        </div>
+        <h1>
+          <a href="http://www.bnotions.com" title="BNOTIONS">RISE RACING</a>
+        </h1>
+        <p class="currentPage">Home</p>
+      </div>
+    </div>
+
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/lib/jquery-1.11.0.min.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/lib/jquery.mousewheel.min.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/lib/jquery.mCustomScrollbar.min.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/lib/underscore.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/lib/scenery.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/scripts.js"></script>
+    <script src="http://www.bnotions.com/wp-content/themes/bnotions_v6/assets/js/action.js"></script>
   </body>
 </html>
+
+
+

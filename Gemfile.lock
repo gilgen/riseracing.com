@@ -128,4 +128,4 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.3.6)
   middleman-blog (~> 3.5.3)
-  middleman-deploy
+  middleman-deploy (~> 0.3.0)

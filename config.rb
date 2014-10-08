@@ -75,10 +75,9 @@ page "/feed.xml", layout: false
 # end
 
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
+set :source, 'source'
 
 activate :deploy do |deploy|
   deploy.build_before = true
