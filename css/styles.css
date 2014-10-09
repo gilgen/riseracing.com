@@ -1,0 +1,3698 @@
+@charset "UTF-8";
+/* line 62, ../scss/_typography.scss */
+p {
+  font-size: 14px;
+  font-size: 1em;
+}
+
+/* line 66, ../scss/_typography.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1.28571em;
+}
+
+/* line 84, ../scss/_typography.scss */
+h1 {
+  font-size: 51.2px;
+  font-size: 3.65714em;
+}
+
+/* line 89, ../scss/_typography.scss */
+h2, .benefits dt, .dark .title, .summary_list h1, .industry_practices_list h1, h3 {
+  font-size: 32px;
+  font-size: 2.28571em;
+}
+
+/* line 192, ../scss/_mixins.scss */
+.crowned, .contact-footer .tagline, .contact--full .tagline {
+  background: url("../../img/crown.svg") no-repeat center top;
+  background-size: 40px 40px;
+  padding-top: 56px;
+}
+
+/* line 23, ../scss/_theme.scss */
+.swatch {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+/* line 29, ../scss/_theme.scss */
+.swatch:nth-of-type(1) {
+  background: #253e71;
+}
+
+/* line 33, ../scss/_theme.scss */
+.swatch:nth-of-type(2) {
+  background: #afc4d1;
+}
+
+/* line 37, ../scss/_theme.scss */
+.swatch:nth-of-type(3) {
+  background: #5e81c8;
+}
+
+/* line 41, ../scss/_theme.scss */
+.swatch:nth-of-type(4) {
+  background: #1c85df;
+}
+
+/* line 6, ../scss/_global.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../scss/_global.scss */
+hr {
+  display: none;
+}
+
+/* line 15, ../scss/_global.scss */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 21, ../scss/_global.scss */
+body {
+  background: black;
+  color: white;
+  overflow: hidden;
+}
+
+/* line 27, ../scss/_global.scss */
+a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+/* line 37, ../scss/_global.scss */
+.site--content {
+  min-height: 100%;
+  position: relative;
+}
+@media only screen and (min-width: 800px) {
+  /* line 37, ../scss/_global.scss */
+  .site--content {
+    padding-bottom: 8em;
+  }
+}
+
+/* line 48, ../scss/_global.scss */
+body {
+  font: 300 14px/1.9 serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Avenir", sans-serif;
+}
+
+/* line 66, ../scss/_global.scss */
+h1,
+h2,
+.benefits dt,
+.dark .title,
+.summary_list h1,
+.industry_practices_list h1,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 0;
+  letter-spacing: 2;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Avenir", sans-serif;
+}
+
+/* line 71, ../scss/_global.scss */
+h1 {
+  font-weight: 100;
+}
+@media only screen and (max-width: 800px) {
+  /* line 71, ../scss/_global.scss */
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* line 79, ../scss/_global.scss */
+h2, .benefits dt, .dark .title, .summary_list h1, .industry_practices_list h1 {
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1;
+}
+
+/* line 88, ../scss/_global.scss */
+h3 {
+  font-weight: 200;
+}
+
+/* line 93, ../scss/_global.scss */
+h4 {
+  font-weight: 200;
+}
+
+/* line 98, ../scss/_global.scss */
+a {
+  text-decoration: none;
+  position: relative;
+  color: black;
+}
+/* line 102, ../scss/_global.scss */
+.dark a {
+  color: white;
+}
+/* line 108, ../scss/_global.scss */
+a.fancy, .summary_list li a, .industry_practices_list li a, .summary_list > div a, .industry_practices_list > div a {
+  font-family: "Baskerville", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1rem;
+}
+/* line 113, ../scss/_global.scss */
+a.fancy:after, .summary_list li a:after, .industry_practices_list li a:after, .summary_list > div a:after, .industry_practices_list > div a:after {
+  content: "  »";
+  position: relative;
+}
+
+/* line 120, ../scss/_global.scss */
+.fancy, .leader--full nav, .summary_list li a, .industry_practices_list li a, .summary_list > div a, .industry_practices_list > div a {
+  font-family: "Baskerville", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1rem;
+}
+/* line 125, ../scss/_global.scss */
+.fancy:after, .leader--full nav:after, .summary_list li a:after, .industry_practices_list li a:after, .summary_list > div a:after, .industry_practices_list > div a:after {
+  content: "  »";
+  position: relative;
+}
+
+/* line 133, ../scss/_global.scss */
+.bg_img_wrapper {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* line 151, ../scss/_global.scss */
+.thumbnail {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-position-x: left;
+  background-position-y: top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 0%;
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 151, ../scss/_global.scss */
+  .thumbnail {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: center;
+    background-position-y: top;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    width: 30%;
+    height: 200px;
+    margin: 2em 0 -90% 0;
+    max-width: 260px;
+    float: right;
+    clear: none;
+  }
+}
+
+/* line 171, ../scss/_global.scss */
+.bg_img {
+  top: 0;
+  right: -15%;
+  bottom: 0;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  max-width: 1000px;
+  z-index: 1;
+}
+@media only screen and (min-width: 1600px) {
+  /* line 171, ../scss/_global.scss */
+  .bg_img {
+    top: 0;
+    right: -25%;
+    bottom: 0;
+    left: 25%;
+    position: fixed;
+    max-width: none;
+    width: auto;
+  }
+}
+/* line 186, ../scss/_global.scss */
+.bg_img .bg_img_wrapper:after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: none !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, transparent));
+  background-image: -webkit-linear-gradient(left, black, transparent);
+  background-image: linear-gradient(to right,black, transparent);
+  background-color: none !important;
+}
+
+/* line 215, ../scss/_global.scss */
+.article_body {
+  min-height: 60vh;
+}
+
+/* line 226, ../scss/_global.scss */
+.awards h1 ~ p,
+.subsidiaries h1 ~ p,
+.partnerships h1 ~ p,
+.investments h1 ~ p {
+  width: 60%;
+}
+
+/* line 234, ../scss/_global.scss */
+.award,
+.subsidiary,
+.partnership,
+.investment {
+  *zoom: 1;
+  position: relative;
+  clear: both;
+  margin-bottom: 6em;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.award:before, .award:after,
+.subsidiary:before,
+.subsidiary:after,
+.partnership:before,
+.partnership:after,
+.investment:before,
+.investment:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.award:after,
+.subsidiary:after,
+.partnership:after,
+.investment:after {
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 234, ../scss/_global.scss */
+  .award,
+  .subsidiary,
+  .partnership,
+  .investment {
+    margin-bottom: 2em;
+  }
+}
+/* line 243, ../scss/_global.scss */
+.award .description,
+.subsidiary .description,
+.partnership .description,
+.investment .description {
+  float: left;
+  margin: 0 !important;
+}
+@media only screen and (min-width: 800px) {
+  /* line 243, ../scss/_global.scss */
+  .award .description,
+  .subsidiary .description,
+  .partnership .description,
+  .investment .description {
+    width: 60%;
+  }
+}
+
+/* line 252, ../scss/_global.scss */
+.awards_list {
+  float: none !important;
+}
+
+/* line 266, ../scss/_global.scss */
+.careers_list ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 271, ../scss/_global.scss */
+.careers_list li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 276, ../scss/_global.scss */
+.careers_list li a {
+  color: #1c85df;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 282, ../scss/_global.scss */
+  .benefits_list--full {
+    width: 33% !important;
+    margin-top: 9.2em;
+  }
+}
+
+/* line 289, ../scss/_global.scss */
+.benefits {
+  text-align: left !important;
+}
+@media only screen and (min-width: 800px) {
+  /* line 289, ../scss/_global.scss */
+  .benefits {
+    padding-left: 3em !important;
+  }
+}
+/* line 296, ../scss/_global.scss */
+.benefits dt {
+  margin: 1em 0 !important;
+}
+/* line 301, ../scss/_global.scss */
+.benefits dd {
+  margin-bottom: 3em;
+}
+
+/* line 321, ../scss/_global.scss */
+.client_list {
+  float: none !important;
+}
+/* line 324, ../scss/_global.scss */
+.client_list h1 {
+  text-align: left;
+}
+/* line 326, ../scss/_global.scss */
+.client_list .client_logos {
+  text-align: center;
+  padding-top: 4em;
+}
+
+/* line 339, ../scss/_global.scss */
+.contact_page--full .header--full h1 {
+  position: relative;
+  padding-bottom: 1.45rem;
+  margin-bottom: 1.9rem;
+  margin-bottom: .5em !important;
+  padding-bottom: .5em !important;
+}
+/* line 160, ../scss/_mixins.scss */
+.contact_page--full .header--full h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -20px;
+  width: 40px;
+  height: 4px;
+  background: white;
+}
+/* line 345, ../scss/_global.scss */
+.contact_page--full .contact_details {
+  font-size: .9em;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+/* line 353, ../scss/_global.scss */
+.contacts_list--full {
+  *zoom: 1;
+  background: white;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.contacts_list--full:before, .contacts_list--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.contacts_list--full:after {
+  clear: both;
+}
+/* line 357, ../scss/_global.scss */
+.contacts_list--full .social-links {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10em;
+}
+/* line 362, ../scss/_global.scss */
+.contacts_list--full .social-links .style0,
+.contacts_list--full .social-links .style1 {
+  stroke: none;
+}
+/* line 365, ../scss/_global.scss */
+.contacts_list--full .social-links li {
+  background: black;
+  width: 6em;
+  height: 6em;
+  margin: 0 0.2em;
+  -webkit-transition: background 0.6s ease-in-out;
+  -moz-transition: background 0.6s ease-in-out;
+  transition: background 0.6s ease-in-out;
+}
+/* line 370, ../scss/_global.scss */
+.contacts_list--full .social-links li:hover {
+  background: #253e71;
+  -webkit-transition: background 0.1s ease-in-out;
+  -moz-transition: background 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out;
+}
+/* line 381, ../scss/_global.scss */
+.contacts_list--full .social-links a {
+  display: block;
+  height: 100%;
+}
+/* line 385, ../scss/_global.scss */
+.contacts_list--full .social-links svg {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  -webkit-transition: fill 0.2s ease-in-out;
+  -moz-transition: fill 0.2s ease-in-out;
+  transition: fill 0.2s ease-in-out;
+}
+/* line 391, ../scss/_global.scss */
+.contacts_list--full .social-links .style1 {
+  fill: white;
+}
+
+/* line 397, ../scss/_global.scss */
+.contacts_list {
+  max-width: 1200px;
+  width: 75%;
+  margin: auto;
+  padding-top: 4em;
+  *zoom: 1;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.contacts_list:before, .contacts_list:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.contacts_list:after {
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 397, ../scss/_global.scss */
+  .contacts_list {
+    padding: 0 0 !important;
+  }
+}
+/* line 406, ../scss/_global.scss */
+.contacts_list .contacts--full {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  display: -webkit-flex !important;
+  color: black;
+  padding: 4em 0 !important;
+  text-align: center;
+  font-family: "Baskerville", serif;
+  background: white !important;
+}
+@media only screen and (min-width: 800px) {
+  /* line 406, ../scss/_global.scss */
+  .contacts_list .contacts--full {
+    padding: 14em 0 !important;
+  }
+}
+/* line 420, ../scss/_global.scss */
+.contacts_list .contacts--full h2, .contacts_list .contacts--full .benefits dt, .benefits .contacts_list .contacts--full dt, .contacts_list .contacts--full .dark .title, .dark .contacts_list .contacts--full .title, .contacts_list .contacts--full .summary_list h1, .summary_list .contacts_list .contacts--full h1, .contacts_list .contacts--full .industry_practices_list h1, .industry_practices_list .contacts_list .contacts--full h1 {
+  position: relative;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  padding-top: 0;
+}
+/* line 177, ../scss/_mixins.scss */
+.contacts_list .contacts--full h2:after, .contacts_list .contacts--full .benefits dt:after, .benefits .contacts_list .contacts--full dt:after, .contacts_list .contacts--full .dark .title:after, .dark .contacts_list .contacts--full .title:after, .contacts_list .contacts--full .summary_list h1:after, .summary_list .contacts_list .contacts--full h1:after, .contacts_list .contacts--full .industry_practices_list h1:after, .industry_practices_list .contacts_list .contacts--full h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -2px;
+  width: 4px;
+  height: 4px;
+  background: black;
+}
+/* line 425, ../scss/_global.scss */
+.contacts_list .contacts--full:hover {
+  background: white !important;
+  color: black !important;
+}
+/* line 430, ../scss/_global.scss */
+.contacts_list .contacts--full p {
+  font-size: 1.2em;
+  display: block;
+}
+/* line 434, ../scss/_global.scss */
+.contacts_list .contacts--full p:first-of-type {
+  font-size: 2em;
+}
+
+/* line 447, ../scss/_global.scss */
+.company--full .header--full h1 {
+  font-size: 2.5em;
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+  margin-bottom: .5em !important;
+  padding-bottom: .5em !important;
+}
+/* line 143, ../scss/_mixins.scss */
+.company--full .header--full h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -25px;
+  width: 40px;
+  height: 4px;
+  background: white;
+}
+@media only screen and (min-width: 800px) {
+  /* line 447, ../scss/_global.scss */
+  .company--full .header--full h1 {
+    font-size: 4.5em;
+  }
+}
+/* line 457, ../scss/_global.scss */
+.company--full ~ .contact--full {
+  background: white;
+}
+
+/* line 466, ../scss/_global.scss */
+.sub_pages > a:nth-of-type(even) .sub_page--full {
+  background: #d5dae0;
+}
+
+/* line 479, ../scss/_global.scss */
+.functional_practice_specific {
+  padding-bottom: 0 !important;
+}
+/* line 483, ../scss/_global.scss */
+.functional_practice_specific h1 {
+  font-family: "Baskerville", serif;
+  text-transform: none !important;
+}
+/* line 487, ../scss/_global.scss */
+.functional_practice_specific p {
+  font-family: "Baskerville", serif;
+  font-size: 1.2em;
+}
+
+/* line 496, ../scss/_global.scss */
+.featured_article--full {
+  min-height: 490px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 496, ../scss/_global.scss */
+  .featured_article--full {
+    min-height: 57.25vh !important;
+  }
+}
+/* line 503, ../scss/_global.scss */
+.featured_article--full .bg_img_wrapper {
+  opacity: 0.5;
+}
+/* line 512, ../scss/_global.scss */
+.featured_article--full p {
+  font-size: 1.1em;
+  max-width: 80%;
+  margin: auto;
+}
+@media only screen and (min-width: 800px) {
+  /* line 512, ../scss/_global.scss */
+  .featured_article--full p {
+    width: 60%;
+  }
+}
+
+/* line 522, ../scss/_global.scss */
+.case_studies--full {
+  *zoom: 1;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.case_studies--full:before, .case_studies--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.case_studies--full:after {
+  clear: both;
+}
+/* line 525, ../scss/_global.scss */
+.case_studies--full a {
+  color: white;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 533, ../scss/_global.scss */
+  .case_study--full {
+    min-height: 460px;
+    width: 100% !important;
+    margin-right: 0;
+    float: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 533, ../scss/_global.scss */
+  .case_study--full {
+    min-height: 460px;
+    width: 33.3333333333333% !important;
+    margin-right: -1px !important;
+    float: left !important;
+  }
+}
+
+/* line 561, ../scss/_global.scss */
+.insights_nav--full {
+  background: white;
+}
+
+/* line 566, ../scss/_global.scss */
+.insights_gallery--full {
+  *zoom: 1;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.insights_gallery--full:before, .insights_gallery--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.insights_gallery--full:after {
+  clear: both;
+}
+/* line 568, ../scss/_global.scss */
+.insights_gallery--full a {
+  color: white;
+}
+/* line 570, ../scss/_global.scss */
+.insights_gallery--full a:nth-of-type(7) .insight {
+  width: 100%;
+}
+
+/* line 578, ../scss/_global.scss */
+.insight:nth-of-type(7) {
+  width: 100%;
+}
+/* line 581, ../scss/_global.scss */
+.insight h1 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+/* line 584, ../scss/_global.scss */
+.insight h1:after {
+  display: none;
+}
+
+/* line 593, ../scss/_global.scss */
+.investments_list {
+  float: none !important;
+}
+
+/* line 600, ../scss/_global.scss */
+.page-template-t_leadership-php .site--content {
+  background: black;
+}
+
+/* line 604, ../scss/_global.scss */
+.leadership--full {
+  *zoom: 1;
+  width: 90%;
+  margin: auto;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.leadership--full:before, .leadership--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.leadership--full:after {
+  clear: both;
+}
+/* line 611, ../scss/_global.scss */
+.leadership--full .header--full .content {
+  padding-bottom: 0 !important;
+}
+/* line 616, ../scss/_global.scss */
+.leadership--full .page_badge {
+  background: url("../../img/crown.svg") no-repeat center center;
+  background-size: 50% 50%;
+  background-color: #1c85df;
+}
+/* line 622, ../scss/_global.scss */
+.leadership--full h1 {
+  position: relative;
+  padding-bottom: 1.45rem;
+  margin-bottom: 1.9rem;
+  margin-bottom: .5em !important;
+  padding-bottom: .5em !important;
+  font-size: 2.75em;
+}
+/* line 160, ../scss/_mixins.scss */
+.leadership--full h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -20px;
+  width: 40px;
+  height: 4px;
+  background: white;
+}
+/* line 628, ../scss/_global.scss */
+.leadership--full a {
+  color: white;
+}
+/* line 631, ../scss/_global.scss */
+.leadership--full .bg_img_wrapper {
+  background-size: 120%;
+  background-position-y: 30%;
+  -webkit-transform: none !important;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+/* line 640, ../scss/_global.scss */
+.leader--full {
+  height: 100% !important;
+  max-height: 900px;
+}
+/* line 644, ../scss/_global.scss */
+.leader--full a {
+  text-transform: none !important;
+}
+/* line 647, ../scss/_global.scss */
+.leader--full nav {
+  text-transform: none !important;
+}
+
+/* line 658, ../scss/_global.scss */
+.leadership-single--full {
+  background: black;
+}
+/* line 660, ../scss/_global.scss */
+.leadership-single--full .container {
+  padding-top: 18em;
+  background: none !important;
+  background-color: none !important;
+}
+/* line 666, ../scss/_global.scss */
+.leadership-single--full .bg_img_wrapper {
+  opacity: .5;
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  filter: blur(6px);
+}
+@media only screen and (min-width: 800px) {
+  /* line 666, ../scss/_global.scss */
+  .leadership-single--full .bg_img_wrapper {
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-position-x: center;
+    background-position-y: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    filter: blur(0);
+  }
+}
+
+/* line 680, ../scss/_global.scss */
+.partnerships_list {
+  float: none !important;
+}
+
+/* line 691, ../scss/_global.scss */
+.services--full .industry_practices_list--full.content {
+  padding-bottom: 4em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 691, ../scss/_global.scss */
+  .services--full .industry_practices_list--full.content {
+    width: 67%;
+    padding-bottom: 8em;
+  }
+}
+
+/* line 703, ../scss/_global.scss */
+.industry_practices_list .icon {
+  width: 30px;
+  height: auto;
+  float: left;
+  margin-top: -5px;
+  margin-right: 14px;
+}
+/* line 709, ../scss/_global.scss */
+.industry_practices_list .icon .style0,
+.industry_practices_list .icon .style1 {
+  stroke-width: 1;
+  -webkit-transition: stroke 0.2s ease-in-out;
+  -moz-transition: stroke 0.2s ease-in-out;
+  transition: stroke 0.2s ease-in-out;
+}
+
+/* line 716, ../scss/_global.scss */
+.functional_practices_list--full {
+  padding-bottom: 4em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 716, ../scss/_global.scss */
+  .functional_practices_list--full {
+    width: 33% !important;
+    margin-top: 13.8em;
+    padding-bottom: 0;
+  }
+}
+
+/* line 729, ../scss/_global.scss */
+.capabilities_list {
+  margin-bottom: 20%;
+}
+
+/* line 737, ../scss/_global.scss */
+.subsidiaries_list {
+  float: none !important;
+}
+
+/* line 744, ../scss/_global.scss */
+.contact--full {
+  overflow: hidden;
+}
+
+/* line 44, ../scss/layout.scss */
+.full, .featured_article--full, .case_studies--full {
+  width: 100%;
+}
+
+/* line 50, ../scss/layout.scss */
+.home hr {
+  display: none;
+}
+
+/* line 2, ../scss/modules/_articles.scss */
+.article .container, .single .container,
+.page-template-t_services-php .container,
+.page-template-t_clients-php .container,
+.page-template-t_subsidiaries-php .container,
+.page-template-t_awards-php .container,
+.page-template-t_partnerships-php .container,
+.page-template-t_investments-php .container,
+.page-template-t_careers-php .container {
+  *zoom: 1;
+  color: black;
+  background-color: white;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.article .container:before, .single .container:before,
+.page-template-t_services-php .container:before,
+.page-template-t_clients-php .container:before,
+.page-template-t_subsidiaries-php .container:before,
+.page-template-t_awards-php .container:before,
+.page-template-t_partnerships-php .container:before,
+.page-template-t_investments-php .container:before,
+.page-template-t_careers-php .container:before, .article .container:after, .single .container:after,
+.page-template-t_services-php .container:after,
+.page-template-t_clients-php .container:after,
+.page-template-t_subsidiaries-php .container:after,
+.page-template-t_awards-php .container:after,
+.page-template-t_partnerships-php .container:after,
+.page-template-t_investments-php .container:after,
+.page-template-t_careers-php .container:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.article .container:after, .single .container:after,
+.page-template-t_services-php .container:after,
+.page-template-t_clients-php .container:after,
+.page-template-t_subsidiaries-php .container:after,
+.page-template-t_awards-php .container:after,
+.page-template-t_partnerships-php .container:after,
+.page-template-t_investments-php .container:after,
+.page-template-t_careers-php .container:after {
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 7, ../scss/modules/_articles.scss */
+  .article .container > section, .single .container > section,
+  .page-template-t_services-php .container > section,
+  .page-template-t_clients-php .container > section,
+  .page-template-t_subsidiaries-php .container > section,
+  .page-template-t_awards-php .container > section,
+  .page-template-t_partnerships-php .container > section,
+  .page-template-t_investments-php .container > section,
+  .page-template-t_careers-php .container > section {
+    width: 75%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 17, ../scss/modules/_articles.scss */
+.article .content, .single .content,
+.page-template-t_services-php .content,
+.page-template-t_clients-php .content,
+.page-template-t_subsidiaries-php .content,
+.page-template-t_awards-php .content,
+.page-template-t_partnerships-php .content,
+.page-template-t_investments-php .content,
+.page-template-t_careers-php .content {
+  *zoom: 1;
+  margin: auto;
+  margin-top: 2em;
+  position: relative;
+  width: 90%;
+  padding-bottom: 8em;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.article .content:before, .single .content:before,
+.page-template-t_services-php .content:before,
+.page-template-t_clients-php .content:before,
+.page-template-t_subsidiaries-php .content:before,
+.page-template-t_awards-php .content:before,
+.page-template-t_partnerships-php .content:before,
+.page-template-t_investments-php .content:before,
+.page-template-t_careers-php .content:before, .article .content:after, .single .content:after,
+.page-template-t_services-php .content:after,
+.page-template-t_clients-php .content:after,
+.page-template-t_subsidiaries-php .content:after,
+.page-template-t_awards-php .content:after,
+.page-template-t_partnerships-php .content:after,
+.page-template-t_investments-php .content:after,
+.page-template-t_careers-php .content:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.article .content:after, .single .content:after,
+.page-template-t_services-php .content:after,
+.page-template-t_clients-php .content:after,
+.page-template-t_subsidiaries-php .content:after,
+.page-template-t_awards-php .content:after,
+.page-template-t_partnerships-php .content:after,
+.page-template-t_investments-php .content:after,
+.page-template-t_careers-php .content:after {
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 17, ../scss/modules/_articles.scss */
+  .article .content, .single .content,
+  .page-template-t_services-php .content,
+  .page-template-t_clients-php .content,
+  .page-template-t_subsidiaries-php .content,
+  .page-template-t_awards-php .content,
+  .page-template-t_partnerships-php .content,
+  .page-template-t_investments-php .content,
+  .page-template-t_careers-php .content {
+    width: 68%;
+    float: left;
+    margin-top: 6em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 17, ../scss/modules/_articles.scss */
+  .article .content, .single .content,
+  .page-template-t_services-php .content,
+  .page-template-t_clients-php .content,
+  .page-template-t_subsidiaries-php .content,
+  .page-template-t_awards-php .content,
+  .page-template-t_partnerships-php .content,
+  .page-template-t_investments-php .content,
+  .page-template-t_careers-php .content {
+    width: 60%;
+  }
+}
+/* line 35, ../scss/modules/_articles.scss */
+.article .content a, .single .content a,
+.page-template-t_services-php .content a,
+.page-template-t_clients-php .content a,
+.page-template-t_subsidiaries-php .content a,
+.page-template-t_awards-php .content a,
+.page-template-t_partnerships-php .content a,
+.page-template-t_investments-php .content a,
+.page-template-t_careers-php .content a {
+  color: #1c85df;
+}
+/* line 40, ../scss/modules/_articles.scss */
+.article .content h1, .single .content h1,
+.page-template-t_services-php .content h1,
+.page-template-t_clients-php .content h1,
+.page-template-t_subsidiaries-php .content h1,
+.page-template-t_awards-php .content h1,
+.page-template-t_partnerships-php .content h1,
+.page-template-t_investments-php .content h1,
+.page-template-t_careers-php .content h1, .article .content h2, .single .content h2,
+.page-template-t_services-php .content h2,
+.page-template-t_clients-php .content h2,
+.page-template-t_subsidiaries-php .content h2,
+.page-template-t_awards-php .content h2,
+.page-template-t_partnerships-php .content h2,
+.page-template-t_investments-php .content h2,
+.page-template-t_careers-php .content h2, .article .content .benefits dt, .benefits .article .content dt, .single .content .benefits dt, .benefits .single .content dt,
+.page-template-t_services-php .content .benefits dt,
+.benefits .page-template-t_services-php .content dt,
+.page-template-t_clients-php .content .benefits dt,
+.benefits .page-template-t_clients-php .content dt,
+.page-template-t_subsidiaries-php .content .benefits dt,
+.benefits .page-template-t_subsidiaries-php .content dt,
+.page-template-t_awards-php .content .benefits dt,
+.benefits .page-template-t_awards-php .content dt,
+.page-template-t_partnerships-php .content .benefits dt,
+.benefits .page-template-t_partnerships-php .content dt,
+.page-template-t_investments-php .content .benefits dt,
+.benefits .page-template-t_investments-php .content dt,
+.page-template-t_careers-php .content .benefits dt,
+.benefits .page-template-t_careers-php .content dt, .article .content .dark .title, .dark .article .content .title, .single .content .dark .title, .dark .single .content .title,
+.page-template-t_services-php .content .dark .title,
+.dark .page-template-t_services-php .content .title,
+.page-template-t_clients-php .content .dark .title,
+.dark .page-template-t_clients-php .content .title,
+.page-template-t_subsidiaries-php .content .dark .title,
+.dark .page-template-t_subsidiaries-php .content .title,
+.page-template-t_awards-php .content .dark .title,
+.dark .page-template-t_awards-php .content .title,
+.page-template-t_partnerships-php .content .dark .title,
+.dark .page-template-t_partnerships-php .content .title,
+.page-template-t_investments-php .content .dark .title,
+.dark .page-template-t_investments-php .content .title,
+.page-template-t_careers-php .content .dark .title,
+.dark .page-template-t_careers-php .content .title, .article .content .summary_list h1, .summary_list .article .content h1, .single .content .summary_list h1, .summary_list .single .content h1,
+.page-template-t_services-php .content .summary_list h1,
+.summary_list .page-template-t_services-php .content h1,
+.page-template-t_clients-php .content .summary_list h1,
+.summary_list .page-template-t_clients-php .content h1,
+.page-template-t_subsidiaries-php .content .summary_list h1,
+.summary_list .page-template-t_subsidiaries-php .content h1,
+.page-template-t_awards-php .content .summary_list h1,
+.summary_list .page-template-t_awards-php .content h1,
+.page-template-t_partnerships-php .content .summary_list h1,
+.summary_list .page-template-t_partnerships-php .content h1,
+.page-template-t_investments-php .content .summary_list h1,
+.summary_list .page-template-t_investments-php .content h1,
+.page-template-t_careers-php .content .summary_list h1,
+.summary_list .page-template-t_careers-php .content h1, .article .content .industry_practices_list h1, .industry_practices_list .article .content h1, .single .content .industry_practices_list h1, .industry_practices_list .single .content h1,
+.page-template-t_services-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_services-php .content h1,
+.page-template-t_clients-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_clients-php .content h1,
+.page-template-t_subsidiaries-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_subsidiaries-php .content h1,
+.page-template-t_awards-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_awards-php .content h1,
+.page-template-t_partnerships-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_partnerships-php .content h1,
+.page-template-t_investments-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_investments-php .content h1,
+.page-template-t_careers-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_careers-php .content h1 {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+/* line 46, ../scss/modules/_articles.scss */
+.article .content h2[rel=author], .single .content h2[rel=author],
+.page-template-t_services-php .content h2[rel=author],
+.page-template-t_clients-php .content h2[rel=author],
+.page-template-t_subsidiaries-php .content h2[rel=author],
+.page-template-t_awards-php .content h2[rel=author],
+.page-template-t_partnerships-php .content h2[rel=author],
+.page-template-t_investments-php .content h2[rel=author],
+.page-template-t_careers-php .content h2[rel=author], .article .content .benefits dt[rel=author], .benefits .article .content dt[rel=author], .single .content .benefits dt[rel=author], .benefits .single .content dt[rel=author],
+.page-template-t_services-php .content .benefits dt[rel=author],
+.benefits .page-template-t_services-php .content dt[rel=author],
+.page-template-t_clients-php .content .benefits dt[rel=author],
+.benefits .page-template-t_clients-php .content dt[rel=author],
+.page-template-t_subsidiaries-php .content .benefits dt[rel=author],
+.benefits .page-template-t_subsidiaries-php .content dt[rel=author],
+.page-template-t_awards-php .content .benefits dt[rel=author],
+.benefits .page-template-t_awards-php .content dt[rel=author],
+.page-template-t_partnerships-php .content .benefits dt[rel=author],
+.benefits .page-template-t_partnerships-php .content dt[rel=author],
+.page-template-t_investments-php .content .benefits dt[rel=author],
+.benefits .page-template-t_investments-php .content dt[rel=author],
+.page-template-t_careers-php .content .benefits dt[rel=author],
+.benefits .page-template-t_careers-php .content dt[rel=author], .article .content .dark [rel=author].title, .dark .article .content [rel=author].title, .single .content .dark [rel=author].title, .dark .single .content [rel=author].title,
+.page-template-t_services-php .content .dark [rel=author].title,
+.dark .page-template-t_services-php .content [rel=author].title,
+.page-template-t_clients-php .content .dark [rel=author].title,
+.dark .page-template-t_clients-php .content [rel=author].title,
+.page-template-t_subsidiaries-php .content .dark [rel=author].title,
+.dark .page-template-t_subsidiaries-php .content [rel=author].title,
+.page-template-t_awards-php .content .dark [rel=author].title,
+.dark .page-template-t_awards-php .content [rel=author].title,
+.page-template-t_partnerships-php .content .dark [rel=author].title,
+.dark .page-template-t_partnerships-php .content [rel=author].title,
+.page-template-t_investments-php .content .dark [rel=author].title,
+.dark .page-template-t_investments-php .content [rel=author].title,
+.page-template-t_careers-php .content .dark [rel=author].title,
+.dark .page-template-t_careers-php .content [rel=author].title, .article .content .summary_list h1[rel=author], .summary_list .article .content h1[rel=author], .single .content .summary_list h1[rel=author], .summary_list .single .content h1[rel=author],
+.page-template-t_services-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_services-php .content h1[rel=author],
+.page-template-t_clients-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_clients-php .content h1[rel=author],
+.page-template-t_subsidiaries-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_subsidiaries-php .content h1[rel=author],
+.page-template-t_awards-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_awards-php .content h1[rel=author],
+.page-template-t_partnerships-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_partnerships-php .content h1[rel=author],
+.page-template-t_investments-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_investments-php .content h1[rel=author],
+.page-template-t_careers-php .content .summary_list h1[rel=author],
+.summary_list .page-template-t_careers-php .content h1[rel=author], .article .content .industry_practices_list h1[rel=author], .industry_practices_list .article .content h1[rel=author], .single .content .industry_practices_list h1[rel=author], .industry_practices_list .single .content h1[rel=author],
+.page-template-t_services-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_services-php .content h1[rel=author],
+.page-template-t_clients-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_clients-php .content h1[rel=author],
+.page-template-t_subsidiaries-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_subsidiaries-php .content h1[rel=author],
+.page-template-t_awards-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_awards-php .content h1[rel=author],
+.page-template-t_partnerships-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_partnerships-php .content h1[rel=author],
+.page-template-t_investments-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_investments-php .content h1[rel=author],
+.page-template-t_careers-php .content .industry_practices_list h1[rel=author],
+.industry_practices_list .page-template-t_careers-php .content h1[rel=author] {
+  margin-top: -6em;
+  margin-bottom: 6em;
+}
+/* line 51, ../scss/modules/_articles.scss */
+.article .content h3, .single .content h3,
+.page-template-t_services-php .content h3,
+.page-template-t_clients-php .content h3,
+.page-template-t_subsidiaries-php .content h3,
+.page-template-t_awards-php .content h3,
+.page-template-t_partnerships-php .content h3,
+.page-template-t_investments-php .content h3,
+.page-template-t_careers-php .content h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 3em 0 2em 0;
+  letter-spacing: 1;
+  opacity: .7;
+}
+/* line 59, ../scss/modules/_articles.scss */
+.article .content h2 + h3, .single .content h2 + h3,
+.page-template-t_services-php .content h2 + h3,
+.page-template-t_clients-php .content h2 + h3,
+.page-template-t_subsidiaries-php .content h2 + h3,
+.page-template-t_awards-php .content h2 + h3,
+.page-template-t_partnerships-php .content h2 + h3,
+.page-template-t_investments-php .content h2 + h3,
+.page-template-t_careers-php .content h2 + h3, .article .content .benefits dt + h3, .benefits .article .content dt + h3, .single .content .benefits dt + h3, .benefits .single .content dt + h3,
+.page-template-t_services-php .content .benefits dt + h3,
+.benefits .page-template-t_services-php .content dt + h3,
+.page-template-t_clients-php .content .benefits dt + h3,
+.benefits .page-template-t_clients-php .content dt + h3,
+.page-template-t_subsidiaries-php .content .benefits dt + h3,
+.benefits .page-template-t_subsidiaries-php .content dt + h3,
+.page-template-t_awards-php .content .benefits dt + h3,
+.benefits .page-template-t_awards-php .content dt + h3,
+.page-template-t_partnerships-php .content .benefits dt + h3,
+.benefits .page-template-t_partnerships-php .content dt + h3,
+.page-template-t_investments-php .content .benefits dt + h3,
+.benefits .page-template-t_investments-php .content dt + h3,
+.page-template-t_careers-php .content .benefits dt + h3,
+.benefits .page-template-t_careers-php .content dt + h3, .article .content .dark .title + h3, .dark .article .content .title + h3, .single .content .dark .title + h3, .dark .single .content .title + h3,
+.page-template-t_services-php .content .dark .title + h3,
+.dark .page-template-t_services-php .content .title + h3,
+.page-template-t_clients-php .content .dark .title + h3,
+.dark .page-template-t_clients-php .content .title + h3,
+.page-template-t_subsidiaries-php .content .dark .title + h3,
+.dark .page-template-t_subsidiaries-php .content .title + h3,
+.page-template-t_awards-php .content .dark .title + h3,
+.dark .page-template-t_awards-php .content .title + h3,
+.page-template-t_partnerships-php .content .dark .title + h3,
+.dark .page-template-t_partnerships-php .content .title + h3,
+.page-template-t_investments-php .content .dark .title + h3,
+.dark .page-template-t_investments-php .content .title + h3,
+.page-template-t_careers-php .content .dark .title + h3,
+.dark .page-template-t_careers-php .content .title + h3, .article .content .summary_list h1 + h3, .summary_list .article .content h1 + h3, .single .content .summary_list h1 + h3, .summary_list .single .content h1 + h3,
+.page-template-t_services-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_services-php .content h1 + h3,
+.page-template-t_clients-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_clients-php .content h1 + h3,
+.page-template-t_subsidiaries-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_subsidiaries-php .content h1 + h3,
+.page-template-t_awards-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_awards-php .content h1 + h3,
+.page-template-t_partnerships-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_partnerships-php .content h1 + h3,
+.page-template-t_investments-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_investments-php .content h1 + h3,
+.page-template-t_careers-php .content .summary_list h1 + h3,
+.summary_list .page-template-t_careers-php .content h1 + h3, .article .content .industry_practices_list h1 + h3, .industry_practices_list .article .content h1 + h3, .single .content .industry_practices_list h1 + h3, .industry_practices_list .single .content h1 + h3,
+.page-template-t_services-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_services-php .content h1 + h3,
+.page-template-t_clients-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_clients-php .content h1 + h3,
+.page-template-t_subsidiaries-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_subsidiaries-php .content h1 + h3,
+.page-template-t_awards-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_awards-php .content h1 + h3,
+.page-template-t_partnerships-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_partnerships-php .content h1 + h3,
+.page-template-t_investments-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_investments-php .content h1 + h3,
+.page-template-t_careers-php .content .industry_practices_list h1 + h3,
+.industry_practices_list .page-template-t_careers-php .content h1 + h3 {
+  margin-bottom: 28px;
+  margin-top: -.5em;
+}
+/* line 64, ../scss/modules/_articles.scss */
+.article .content p, .single .content p,
+.page-template-t_services-php .content p,
+.page-template-t_clients-php .content p,
+.page-template-t_subsidiaries-php .content p,
+.page-template-t_awards-php .content p,
+.page-template-t_partnerships-php .content p,
+.page-template-t_investments-php .content p,
+.page-template-t_careers-php .content p {
+  margin-bottom: 28px;
+}
+/* line 68, ../scss/modules/_articles.scss */
+.article .content ul, .single .content ul,
+.page-template-t_services-php .content ul,
+.page-template-t_clients-php .content ul,
+.page-template-t_subsidiaries-php .content ul,
+.page-template-t_awards-php .content ul,
+.page-template-t_partnerships-php .content ul,
+.page-template-t_investments-php .content ul,
+.page-template-t_careers-php .content ul, .article .content ol, .single .content ol,
+.page-template-t_services-php .content ol,
+.page-template-t_clients-php .content ol,
+.page-template-t_subsidiaries-php .content ol,
+.page-template-t_awards-php .content ol,
+.page-template-t_partnerships-php .content ol,
+.page-template-t_investments-php .content ol,
+.page-template-t_careers-php .content ol {
+  padding-left: 1em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 68, ../scss/modules/_articles.scss */
+  .article .content ul, .single .content ul,
+  .page-template-t_services-php .content ul,
+  .page-template-t_clients-php .content ul,
+  .page-template-t_subsidiaries-php .content ul,
+  .page-template-t_awards-php .content ul,
+  .page-template-t_partnerships-php .content ul,
+  .page-template-t_investments-php .content ul,
+  .page-template-t_careers-php .content ul, .article .content ol, .single .content ol,
+  .page-template-t_services-php .content ol,
+  .page-template-t_clients-php .content ol,
+  .page-template-t_subsidiaries-php .content ol,
+  .page-template-t_awards-php .content ol,
+  .page-template-t_partnerships-php .content ol,
+  .page-template-t_investments-php .content ol,
+  .page-template-t_careers-php .content ol {
+    padding-left: 2em;
+  }
+}
+/* line 71, ../scss/modules/_articles.scss */
+.article .content ul li, .single .content ul li,
+.page-template-t_services-php .content ul li,
+.page-template-t_clients-php .content ul li,
+.page-template-t_subsidiaries-php .content ul li,
+.page-template-t_awards-php .content ul li,
+.page-template-t_partnerships-php .content ul li,
+.page-template-t_investments-php .content ul li,
+.page-template-t_careers-php .content ul li, .article .content ol li, .single .content ol li,
+.page-template-t_services-php .content ol li,
+.page-template-t_clients-php .content ol li,
+.page-template-t_subsidiaries-php .content ol li,
+.page-template-t_awards-php .content ol li,
+.page-template-t_partnerships-php .content ol li,
+.page-template-t_investments-php .content ol li,
+.page-template-t_careers-php .content ol li {
+  margin-bottom: 1.5em;
+  padding-left: .5em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 71, ../scss/modules/_articles.scss */
+  .article .content ul li, .single .content ul li,
+  .page-template-t_services-php .content ul li,
+  .page-template-t_clients-php .content ul li,
+  .page-template-t_subsidiaries-php .content ul li,
+  .page-template-t_awards-php .content ul li,
+  .page-template-t_partnerships-php .content ul li,
+  .page-template-t_investments-php .content ul li,
+  .page-template-t_careers-php .content ul li, .article .content ol li, .single .content ol li,
+  .page-template-t_services-php .content ol li,
+  .page-template-t_clients-php .content ol li,
+  .page-template-t_subsidiaries-php .content ol li,
+  .page-template-t_awards-php .content ol li,
+  .page-template-t_partnerships-php .content ol li,
+  .page-template-t_investments-php .content ol li,
+  .page-template-t_careers-php .content ol li {
+    padding-left: 1em;
+  }
+}
+/* line 77, ../scss/modules/_articles.scss */
+.article .content ul li strong:first-of-type, .single .content ul li strong:first-of-type,
+.page-template-t_services-php .content ul li strong:first-of-type,
+.page-template-t_clients-php .content ul li strong:first-of-type,
+.page-template-t_subsidiaries-php .content ul li strong:first-of-type,
+.page-template-t_awards-php .content ul li strong:first-of-type,
+.page-template-t_partnerships-php .content ul li strong:first-of-type,
+.page-template-t_investments-php .content ul li strong:first-of-type,
+.page-template-t_careers-php .content ul li strong:first-of-type, .article .content ol li strong:first-of-type, .single .content ol li strong:first-of-type,
+.page-template-t_services-php .content ol li strong:first-of-type,
+.page-template-t_clients-php .content ol li strong:first-of-type,
+.page-template-t_subsidiaries-php .content ol li strong:first-of-type,
+.page-template-t_awards-php .content ol li strong:first-of-type,
+.page-template-t_partnerships-php .content ol li strong:first-of-type,
+.page-template-t_investments-php .content ol li strong:first-of-type,
+.page-template-t_careers-php .content ol li strong:first-of-type {
+  display: block;
+}
+/* line 81, ../scss/modules/_articles.scss */
+.article .content header, .single .content header,
+.page-template-t_services-php .content header,
+.page-template-t_clients-php .content header,
+.page-template-t_subsidiaries-php .content header,
+.page-template-t_awards-php .content header,
+.page-template-t_partnerships-php .content header,
+.page-template-t_investments-php .content header,
+.page-template-t_careers-php .content header {
+  text-align: center;
+}
+@media only screen and (min-width: 800px) {
+  /* line 81, ../scss/modules/_articles.scss */
+  .article .content header, .single .content header,
+  .page-template-t_services-php .content header,
+  .page-template-t_clients-php .content header,
+  .page-template-t_subsidiaries-php .content header,
+  .page-template-t_awards-php .content header,
+  .page-template-t_partnerships-php .content header,
+  .page-template-t_investments-php .content header,
+  .page-template-t_careers-php .content header {
+    text-align: left;
+  }
+}
+/* line 86, ../scss/modules/_articles.scss */
+.article .content header h1, .single .content header h1,
+.page-template-t_services-php .content header h1,
+.page-template-t_clients-php .content header h1,
+.page-template-t_subsidiaries-php .content header h1,
+.page-template-t_awards-php .content header h1,
+.page-template-t_partnerships-php .content header h1,
+.page-template-t_investments-php .content header h1,
+.page-template-t_careers-php .content header h1 {
+  margin-bottom: .8em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 86, ../scss/modules/_articles.scss */
+  .article .content header h1, .single .content header h1,
+  .page-template-t_services-php .content header h1,
+  .page-template-t_clients-php .content header h1,
+  .page-template-t_subsidiaries-php .content header h1,
+  .page-template-t_awards-php .content header h1,
+  .page-template-t_partnerships-php .content header h1,
+  .page-template-t_investments-php .content header h1,
+  .page-template-t_careers-php .content header h1 {
+    margin-bottom: 1.5em;
+  }
+}
+/* line 93, ../scss/modules/_articles.scss */
+.article .content header p, .single .content header p,
+.page-template-t_services-php .content header p,
+.page-template-t_clients-php .content header p,
+.page-template-t_subsidiaries-php .content header p,
+.page-template-t_awards-php .content header p,
+.page-template-t_partnerships-php .content header p,
+.page-template-t_investments-php .content header p,
+.page-template-t_careers-php .content header p {
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+  font-size: .8em;
+  line-height: 2;
+  margin-bottom: 4em;
+  padding-bottom: 4em;
+}
+/* line 143, ../scss/_mixins.scss */
+.article .content header p:after, .single .content header p:after,
+.page-template-t_services-php .content header p:after,
+.page-template-t_clients-php .content header p:after,
+.page-template-t_subsidiaries-php .content header p:after,
+.page-template-t_awards-php .content header p:after,
+.page-template-t_partnerships-php .content header p:after,
+.page-template-t_investments-php .content header p:after,
+.page-template-t_careers-php .content header p:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -25px;
+  width: 40px;
+  height: 4px;
+  background: black;
+}
+@media only screen and (min-width: 800px) {
+  /* line 93, ../scss/modules/_articles.scss */
+  .article .content header p, .single .content header p,
+  .page-template-t_services-php .content header p,
+  .page-template-t_clients-php .content header p,
+  .page-template-t_subsidiaries-php .content header p,
+  .page-template-t_awards-php .content header p,
+  .page-template-t_partnerships-php .content header p,
+  .page-template-t_investments-php .content header p,
+  .page-template-t_careers-php .content header p {
+    position: relative;
+    padding-bottom: 28;
+    margin-bottom: 28;
+    margin-bottom: 4em;
+    padding-bottom: 4em;
+    margin-top: -28px;
+    width: 80%;
+    font-size: .9em;
+  }
+  /* line 143, ../scss/_mixins.scss */
+  .article .content header p:after, .single .content header p:after,
+  .page-template-t_services-php .content header p:after,
+  .page-template-t_clients-php .content header p:after,
+  .page-template-t_subsidiaries-php .content header p:after,
+  .page-template-t_awards-php .content header p:after,
+  .page-template-t_partnerships-php .content header p:after,
+  .page-template-t_investments-php .content header p:after,
+  .page-template-t_careers-php .content header p:after {
+    bottom: 0;
+    left: 0%;
+    position: absolute;
+    content: "";
+    margin-left: 0px;
+    width: 40px;
+    height: 4px;
+    background: black;
+  }
+}
+/* line 110, ../scss/modules/_articles.scss */
+.article .content blockquote, .single .content blockquote,
+.page-template-t_services-php .content blockquote,
+.page-template-t_clients-php .content blockquote,
+.page-template-t_subsidiaries-php .content blockquote,
+.page-template-t_awards-php .content blockquote,
+.page-template-t_partnerships-php .content blockquote,
+.page-template-t_investments-php .content blockquote,
+.page-template-t_careers-php .content blockquote {
+  padding-left: 28px;
+  border-left: 4px solid black;
+}
+/* line 113, ../scss/modules/_articles.scss */
+.article .content blockquote p:first-of-type:first-letter, .single .content blockquote p:first-of-type:first-letter,
+.page-template-t_services-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_clients-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_subsidiaries-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_awards-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_partnerships-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_investments-php .content blockquote p:first-of-type:first-letter,
+.page-template-t_careers-php .content blockquote p:first-of-type:first-letter {
+  float: none;
+  margin: auto;
+  padding: 0;
+  font-size: 1em;
+  border: none;
+}
+/* line 123, ../scss/modules/_articles.scss */
+.article .content h2, .single .content h2,
+.page-template-t_services-php .content h2,
+.page-template-t_clients-php .content h2,
+.page-template-t_subsidiaries-php .content h2,
+.page-template-t_awards-php .content h2,
+.page-template-t_partnerships-php .content h2,
+.page-template-t_investments-php .content h2,
+.page-template-t_careers-php .content h2, .article .content .benefits dt, .benefits .article .content dt, .single .content .benefits dt, .benefits .single .content dt,
+.page-template-t_services-php .content .benefits dt,
+.benefits .page-template-t_services-php .content dt,
+.page-template-t_clients-php .content .benefits dt,
+.benefits .page-template-t_clients-php .content dt,
+.page-template-t_subsidiaries-php .content .benefits dt,
+.benefits .page-template-t_subsidiaries-php .content dt,
+.page-template-t_awards-php .content .benefits dt,
+.benefits .page-template-t_awards-php .content dt,
+.page-template-t_partnerships-php .content .benefits dt,
+.benefits .page-template-t_partnerships-php .content dt,
+.page-template-t_investments-php .content .benefits dt,
+.benefits .page-template-t_investments-php .content dt,
+.page-template-t_careers-php .content .benefits dt,
+.benefits .page-template-t_careers-php .content dt, .article .content .dark .title, .dark .article .content .title, .single .content .dark .title, .dark .single .content .title,
+.page-template-t_services-php .content .dark .title,
+.dark .page-template-t_services-php .content .title,
+.page-template-t_clients-php .content .dark .title,
+.dark .page-template-t_clients-php .content .title,
+.page-template-t_subsidiaries-php .content .dark .title,
+.dark .page-template-t_subsidiaries-php .content .title,
+.page-template-t_awards-php .content .dark .title,
+.dark .page-template-t_awards-php .content .title,
+.page-template-t_partnerships-php .content .dark .title,
+.dark .page-template-t_partnerships-php .content .title,
+.page-template-t_investments-php .content .dark .title,
+.dark .page-template-t_investments-php .content .title,
+.page-template-t_careers-php .content .dark .title,
+.dark .page-template-t_careers-php .content .title, .article .content .summary_list h1, .summary_list .article .content h1, .single .content .summary_list h1, .summary_list .single .content h1,
+.page-template-t_services-php .content .summary_list h1,
+.summary_list .page-template-t_services-php .content h1,
+.page-template-t_clients-php .content .summary_list h1,
+.summary_list .page-template-t_clients-php .content h1,
+.page-template-t_subsidiaries-php .content .summary_list h1,
+.summary_list .page-template-t_subsidiaries-php .content h1,
+.page-template-t_awards-php .content .summary_list h1,
+.summary_list .page-template-t_awards-php .content h1,
+.page-template-t_partnerships-php .content .summary_list h1,
+.summary_list .page-template-t_partnerships-php .content h1,
+.page-template-t_investments-php .content .summary_list h1,
+.summary_list .page-template-t_investments-php .content h1,
+.page-template-t_careers-php .content .summary_list h1,
+.summary_list .page-template-t_careers-php .content h1, .article .content .industry_practices_list h1, .industry_practices_list .article .content h1, .single .content .industry_practices_list h1, .industry_practices_list .single .content h1,
+.page-template-t_services-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_services-php .content h1,
+.page-template-t_clients-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_clients-php .content h1,
+.page-template-t_subsidiaries-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_subsidiaries-php .content h1,
+.page-template-t_awards-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_awards-php .content h1,
+.page-template-t_partnerships-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_partnerships-php .content h1,
+.page-template-t_investments-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_investments-php .content h1,
+.page-template-t_careers-php .content .industry_practices_list h1,
+.industry_practices_list .page-template-t_careers-php .content h1 {
+  clear: both;
+}
+/* line 126, ../scss/modules/_articles.scss */
+.article .content img, .single .content img,
+.page-template-t_services-php .content img,
+.page-template-t_clients-php .content img,
+.page-template-t_subsidiaries-php .content img,
+.page-template-t_awards-php .content img,
+.page-template-t_partnerships-php .content img,
+.page-template-t_investments-php .content img,
+.page-template-t_careers-php .content img {
+  height: auto;
+  width: 100%;
+  margin: 28px 0;
+}
+@media only screen and (min-width: 800px) {
+  /* line 131, ../scss/modules/_articles.scss */
+  .article .content img.align-right, .single .content img.align-right,
+  .page-template-t_services-php .content img.align-right,
+  .page-template-t_clients-php .content img.align-right,
+  .page-template-t_subsidiaries-php .content img.align-right,
+  .page-template-t_awards-php .content img.align-right,
+  .page-template-t_partnerships-php .content img.align-right,
+  .page-template-t_investments-php .content img.align-right,
+  .page-template-t_careers-php .content img.align-right {
+    float: right;
+    width: 40%;
+    min-width: 220px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: -5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  /* line 131, ../scss/modules/_articles.scss */
+  .article .content img.align-right, .single .content img.align-right,
+  .page-template-t_services-php .content img.align-right,
+  .page-template-t_clients-php .content img.align-right,
+  .page-template-t_subsidiaries-php .content img.align-right,
+  .page-template-t_awards-php .content img.align-right,
+  .page-template-t_partnerships-php .content img.align-right,
+  .page-template-t_investments-php .content img.align-right,
+  .page-template-t_careers-php .content img.align-right {
+    margin-right: -10%;
+  }
+}
+
+/* line 96, ../scss/_typography.scss */
+.article_body p:first-of-type:first-letter {
+  float: left;
+  margin: 0.25em .5em 0 0;
+  padding: 0 14px;
+  font-size: 1.75em;
+  border: solid 2px black;
+}
+/* line 96, ../scss/_typography.scss */
+.dark .article_body p:first-of-type:first-letter {
+  float: left;
+  margin: 0.25em .5em 0 0;
+  padding: 0 14px;
+  font-size: 1.75em;
+  border: solid 2px white;
+}
+
+/* line 156, ../scss/modules/_articles.scss */
+.dark .container {
+  width: auto;
+  color: white;
+  background-color: none !important;
+  position: relative;
+  z-index: 1;
+}
+/* line 165, ../scss/modules/_articles.scss */
+.dark .content {
+  color: white;
+}
+/* line 169, ../scss/modules/_articles.scss */
+.dark .content a {
+  color: white;
+}
+/* line 173, ../scss/modules/_articles.scss */
+.dark .title {
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+  padding-bottom: 6em;
+  margin-bottom: 6em !important;
+  padding-top: 0;
+}
+/* line 143, ../scss/_mixins.scss */
+.dark .title:after {
+  bottom: 0;
+  left: 0%;
+  position: absolute;
+  content: "";
+  margin-left: 0px;
+  width: 40px;
+  height: 4px;
+  background: white;
+}
+
+/* line 4, ../scss/modules/_buttons.scss */
+.btn, .btn-filled, .contact-footer .btn, .contact--full .btn, .header-hero .btn, .contact_page--full .header--full .btn, .company--full .header--full .btn, .single-functionalpractice--full .header--full .btn, .featured_article--full .btn, .leadership--full .header--full .btn, .wide-list li a, .functional_practice_specific li a, .wide-list > div a, .functional_practice_specific > div a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8em;
+  letter-spacing: 2;
+  padding: 1em 4.4em;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  border: 1px solid black;
+}
+/* line 16, ../scss/modules/_buttons.scss */
+.btn.light, .light.btn-filled, .wide-list li a.light, .functional_practice_specific li a.light, .wide-list > div a.light, .functional_practice_specific > div a.light, .dark .btn, .dark .btn-filled, .dark .wide-list li a, .wide-list li .dark a, .dark .functional_practice_specific li a, .functional_practice_specific li .dark a, .dark .wide-list > div a, .wide-list > div .dark a, .dark .functional_practice_specific > div a, .functional_practice_specific > div .dark a {
+  color: white;
+  border: 1px solid white;
+}
+/* line 19, ../scss/modules/_buttons.scss */
+.btn.light:hover, .light.btn-filled:hover, .wide-list li a.light:hover, .functional_practice_specific li a.light:hover, .wide-list > div a.light:hover, .functional_practice_specific > div a.light:hover, .dark .btn:hover, .dark .btn-filled:hover, .dark .wide-list li a:hover, .wide-list li .dark a:hover, .dark .functional_practice_specific li a:hover, .functional_practice_specific li .dark a:hover, .dark .wide-list > div a:hover, .wide-list > div .dark a:hover, .dark .functional_practice_specific > div a:hover, .functional_practice_specific > div .dark a:hover {
+  color: black;
+  background: rgba(255, 255, 255, 0.8);
+}
+/* line 26, ../scss/modules/_buttons.scss */
+.btn.dark, .dark.btn-filled, .wide-list li a.dark, .functional_practice_specific li a.dark, .wide-list > div a.dark, .functional_practice_specific > div a.dark, .light .btn, .light .btn-filled, .light .wide-list li a, .wide-list li .light a, .light .functional_practice_specific li a, .functional_practice_specific li .light a, .light .wide-list > div a, .wide-list > div .light a, .light .functional_practice_specific > div a, .functional_practice_specific > div .light a {
+  color: black;
+  border: 1px solid black;
+}
+/* line 29, ../scss/modules/_buttons.scss */
+.btn.dark:hover, .dark.btn-filled:hover, .wide-list li a.dark:hover, .functional_practice_specific li a.dark:hover, .wide-list > div a.dark:hover, .functional_practice_specific > div a.dark:hover, .light .btn:hover, .light .btn-filled:hover, .light .wide-list li a:hover, .wide-list li .light a:hover, .light .functional_practice_specific li a:hover, .functional_practice_specific li .light a:hover, .light .wide-list > div a:hover, .wide-list > div .light a:hover, .light .functional_practice_specific > div a:hover, .functional_practice_specific > div .light a:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 36, ../scss/modules/_buttons.scss */
+.btn-filled, .contact-footer .btn, .contact--full .btn, .contact-footer .btn-filled, .contact--full .btn-filled, .header-hero .btn, .contact_page--full .header--full .btn, .company--full .header--full .btn, .single-functionalpractice--full .header--full .btn, .featured_article--full .btn, .leadership--full .header--full .btn, .header-hero .btn-filled, .contact_page--full .header--full .btn-filled, .company--full .header--full .btn-filled, .single-functionalpractice--full .header--full .btn-filled, .featured_article--full .btn-filled, .leadership--full .header--full .btn-filled, .wide-list li a, .functional_practice_specific li a, .wide-list > div a, .functional_practice_specific > div a {
+  background: rgba(255, 255, 255, 0.2);
+}
+/* line 39, ../scss/modules/_buttons.scss */
+.btn-filled:hover, .contact-footer .btn:hover, .contact--full .btn:hover, .header-hero .btn:hover, .contact_page--full .header--full .btn:hover, .company--full .header--full .btn:hover, .single-functionalpractice--full .header--full .btn:hover, .featured_article--full .btn:hover, .leadership--full .header--full .btn:hover, .wide-list li a:hover, .functional_practice_specific li a:hover, .wide-list > div a:hover, .functional_practice_specific > div a:hover {
+  color: white;
+  background: black;
+  border-color: black;
+}
+
+/* line 64, ../scss/modules/_buttons.scss */
+.email {
+  background-image: url("../../img/icons/email.svg");
+}
+
+/* line 76, ../scss/modules/_buttons.scss */
+.linkedin-icon {
+  background-image: url("../../img/icons/linkedin.svg");
+}
+
+/* line 1, ../scss/modules/_footer.scss */
+.footer, .contact-footer, .contact--full {
+  text-align: center;
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 4, ../scss/modules/_footer.scss */
+  .footer > section, .contact-footer > section, .contact--full > section {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/* line 12, ../scss/modules/_footer.scss */
+.contact-footer, .contact--full {
+  background: #e6eaed;
+  color: black;
+  padding: 84px 0;
+}
+/* line 18, ../scss/modules/_footer.scss */
+.contact-footer .tagline, .contact--full .tagline {
+  display: inline-block;
+  position: relative;
+  font-family: "Baskerville", serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-bottom: 28px;
+}
+/* line 97, ../scss/_mixins.scss */
+.contact-footer .tagline:before, .contact--full .tagline:before, .contact-footer .tagline:after, .contact--full .tagline:after {
+  content: "";
+  margin-top: -1px;
+  width: 20px;
+  height: 1px;
+  background: black;
+}
+@media only screen and (min-width: 800px) {
+  /* line 97, ../scss/_mixins.scss */
+  .contact-footer .tagline:before, .contact--full .tagline:before, .contact-footer .tagline:after, .contact--full .tagline:after {
+    width: 100px;
+  }
+}
+/* line 107, ../scss/_mixins.scss */
+.contact-footer .tagline:before, .contact--full .tagline:before {
+  top: 81%;
+  left: -40px;
+  position: absolute;
+}
+@media only screen and (min-width: 800px) {
+  /* line 107, ../scss/_mixins.scss */
+  .contact-footer .tagline:before, .contact--full .tagline:before {
+    top: 81%;
+    left: -120px;
+    position: absolute;
+  }
+}
+/* line 113, ../scss/_mixins.scss */
+.contact-footer .tagline:after, .contact--full .tagline:after {
+  top: 81%;
+  right: -40px;
+  position: absolute;
+}
+@media only screen and (min-width: 800px) {
+  /* line 113, ../scss/_mixins.scss */
+  .contact-footer .tagline:after, .contact--full .tagline:after {
+    top: 81%;
+    right: -120px;
+    position: absolute;
+  }
+}
+/* line 28, ../scss/modules/_footer.scss */
+.contact-footer p, .contact--full p {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 28px;
+}
+/* line 35, ../scss/modules/_footer.scss */
+.contact-footer .btn-filled, .contact--full .btn-filled, .contact-footer .btn, .contact--full .btn, .contact-footer .wide-list li a, .wide-list li .contact-footer a, .contact--full .wide-list li a, .wide-list li .contact--full a, .contact-footer .functional_practice_specific li a, .functional_practice_specific li .contact-footer a, .contact--full .functional_practice_specific li a, .functional_practice_specific li .contact--full a, .contact-footer .wide-list > div a, .wide-list > div .contact-footer a, .contact--full .wide-list > div a, .wide-list > div .contact--full a, .contact-footer .functional_practice_specific > div a, .functional_practice_specific > div .contact-footer a, .contact--full .functional_practice_specific > div a, .functional_practice_specific > div .contact--full a {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 41, ../scss/modules/_footer.scss */
+.footer--full {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (min-width: 800px) {
+  /* line 41, ../scss/modules/_footer.scss */
+  .footer--full {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+/* line 51, ../scss/modules/_footer.scss */
+.footer--full footer {
+  background-color: #253e71;
+  color: #afc4d1;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.2;
+  padding: 4em 0;
+  text-align: center;
+}
+/* line 60, ../scss/modules/_footer.scss */
+.footer--full footer p {
+  padding: 0 4em;
+}
+/* line 65, ../scss/modules/_footer.scss */
+.footer--full footer .style0,
+.footer--full footer .style1 {
+  stroke: none;
+}
+/* line 69, ../scss/modules/_footer.scss */
+.footer--full footer .social-links svg {
+  max-height: 30px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 51, ../scss/modules/_footer.scss */
+  .footer--full footer {
+    height: 8em;
+    line-height: 8em;
+    overflow: hidden;
+    text-align: left;
+    padding: 0;
+  }
+  /* line 79, ../scss/modules/_footer.scss */
+  .footer--full footer p {
+    float: left;
+    margin-left: 4em;
+    padding: 0;
+  }
+  /* line 84, ../scss/modules/_footer.scss */
+  .footer--full footer .social-links {
+    float: right;
+    line-height: 9;
+    margin-top: 0;
+    margin-right: 2em;
+  }
+}
+
+/* line 2, ../scss/modules/_gists.scss */
+.gist .line-data {
+  color: black;
+}
+
+/* line 1, ../scss/modules/_grids.scss */
+.grid, .contacts_list .contacts--full, .grid-large, .sub_page--full {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 4em 1em;
+  width: 100%;
+}
+@media only screen and (min-width: 800px) {
+  /* line 1, ../scss/modules/_grids.scss */
+  .grid, .contacts_list .contacts--full, .grid-large, .sub_page--full {
+    width: 33.33333%;
+    height: 33.33333%;
+    min-height: 400px;
+  }
+}
+
+/* line 19, ../scss/modules/_grids.scss */
+.grid-medium > div, .client_list .client_logos > div, .grid-medium li, .client_list .client_logos li {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+  display: inline-block;
+  width: 22%;
+  height: 200px;
+  min-width: 200px;
+}
+/* line 26, ../scss/modules/_grids.scss */
+.grid-medium > div svg, .client_list .client_logos > div svg, .grid-medium li svg, .client_list .client_logos li svg {
+  max-height: 90px;
+}
+/* line 32, ../scss/modules/_grids.scss */
+.grid-medium > div.hover .style1, .client_list .client_logos > div.hover .style1, .grid-medium > div.hover .style2, .client_list .client_logos > div.hover .style2, .grid-medium li.hover .style1, .client_list .client_logos li.hover .style1, .grid-medium li.hover .style2, .client_list .client_logos li.hover .style2 {
+  fill: white;
+}
+
+/* line 39, ../scss/modules/_grids.scss */
+.grid-large, .sub_page--full {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  background: #e4e7eb;
+  color: black;
+  text-align: center;
+  position: relative;
+  -webkit-transition: background 0.5s ease-in-out, color 0.5s, ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, color 0.5s, ease-in-out;
+  transition: background 0.5s ease-in-out, color 0.5s, ease-in-out;
+}
+/* line 50, ../scss/modules/_grids.scss */
+.grid-large:hover, .sub_page--full:hover {
+  background: black !important;
+  color: white;
+  -webkit-transition: background 0.1s ease-in-out, color 0.2s, ease-in-out;
+  -moz-transition: background 0.1s ease-in-out, color 0.2s, ease-in-out;
+  transition: background 0.1s ease-in-out, color 0.2s, ease-in-out;
+}
+/* line 55, ../scss/modules/_grids.scss */
+.grid-large:hover .content h1, .sub_page--full:hover .content h1 {
+  position: relative;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+/* line 177, ../scss/_mixins.scss */
+.grid-large:hover .content h1:after, .sub_page--full:hover .content h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -2px;
+  width: 4px;
+  height: 4px;
+  background: white;
+}
+/* line 66, ../scss/modules/_grids.scss */
+.grid-large .content .tagline, .sub_page--full .content .tagline {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 71, ../scss/modules/_grids.scss */
+.grid-large .content h1, .sub_page--full .content h1 {
+  position: relative;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  font-family: "Baskerville", serif;
+  padding-top: 14px;
+}
+/* line 177, ../scss/_mixins.scss */
+.grid-large .content h1:after, .sub_page--full .content h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -2px;
+  width: 4px;
+  height: 4px;
+  background: black;
+}
+/* line 76, ../scss/modules/_grids.scss */
+.grid-large .content h1:after, .sub_page--full .content h1:after {
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+/* line 2, ../scss/modules/_headers.scss */
+.header, .header-short, .single .header--full,
+.page-template-t_services-php .header--full,
+.page-template-t_clients-php .header--full,
+.page-template-t_subsidiaries-php .header--full,
+.page-template-t_awards-php .header--full,
+.page-template-t_partnerships-php .header--full,
+.page-template-t_investments-php .header--full,
+.page-template-t_careers-php .header--full, .careers--full .header--full, .clients--full .header--full, .services--full .header--full, .header-hero, .contact_page--full .header--full, .company--full .header--full, .single-functionalpractice--full .header--full, .featured_article--full, .leadership--full .header--full, .header-mega {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: black;
+}
+
+/* line 10, ../scss/modules/_headers.scss */
+.header-short, .single .header--full,
+.page-template-t_services-php .header--full,
+.page-template-t_clients-php .header--full,
+.page-template-t_subsidiaries-php .header--full,
+.page-template-t_awards-php .header--full,
+.page-template-t_partnerships-php .header--full,
+.page-template-t_investments-php .header--full,
+.page-template-t_careers-php .header--full, .careers--full .header--full, .clients--full .header--full, .services--full .header--full {
+  height: 200px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 10, ../scss/modules/_headers.scss */
+  .header-short, .single .header--full,
+  .page-template-t_services-php .header--full,
+  .page-template-t_clients-php .header--full,
+  .page-template-t_subsidiaries-php .header--full,
+  .page-template-t_awards-php .header--full,
+  .page-template-t_partnerships-php .header--full,
+  .page-template-t_investments-php .header--full,
+  .page-template-t_careers-php .header--full, .careers--full .header--full, .clients--full .header--full, .services--full .header--full {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 20, ../scss/modules/_headers.scss */
+  .paralax .bg_img_wrapper[style] {
+    -webkit-transform: none !important;
+  }
+}
+/* line 25, ../scss/modules/_headers.scss */
+.paralax {
+  z-index: -1;
+}
+@media only screen and (min-width: 800px) {
+  /* line 27, ../scss/modules/_headers.scss */
+  .paralax .bg_img_wrapper {
+    position: fixed;
+    top: -100;
+    height: 600px;
+    z-index: -1;
+  }
+}
+
+/* line 40, ../scss/modules/_headers.scss */
+.header-hero, .contact_page--full .header--full, .company--full .header--full, .single-functionalpractice--full .header--full, .featured_article--full, .leadership--full .header--full {
+  *zoom: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  height: auto;
+  padding: 10em 0 4em 0;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.header-hero:before, .contact_page--full .header--full:before, .company--full .header--full:before, .single-functionalpractice--full .header--full:before, .featured_article--full:before, .leadership--full .header--full:before, .header-hero:after, .contact_page--full .header--full:after, .company--full .header--full:after, .single-functionalpractice--full .header--full:after, .featured_article--full:after, .leadership--full .header--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.header-hero:after, .contact_page--full .header--full:after, .company--full .header--full:after, .single-functionalpractice--full .header--full:after, .featured_article--full:after, .leadership--full .header--full:after {
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 40, ../scss/modules/_headers.scss */
+  .header-hero, .contact_page--full .header--full, .company--full .header--full, .single-functionalpractice--full .header--full, .featured_article--full, .leadership--full .header--full {
+    padding: 4em 0;
+  }
+}
+/* line 51, ../scss/modules/_headers.scss */
+.header-hero header, .contact_page--full .header--full header, .company--full .header--full header, .single-functionalpractice--full .header--full header, .featured_article--full header, .leadership--full .header--full header {
+  width: 100%;
+}
+/* line 54, ../scss/modules/_headers.scss */
+.header-hero .content, .contact_page--full .header--full .content, .company--full .header--full .content, .single-functionalpractice--full .header--full .content, .featured_article--full .content, .leadership--full .header--full .content {
+  text-align: center;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  float: none;
+  font-size: 1.2em;
+  text-shadow: 0 0 50px black;
+}
+@media only screen and (min-width: 800px) {
+  /* line 54, ../scss/modules/_headers.scss */
+  .header-hero .content, .contact_page--full .header--full .content, .company--full .header--full .content, .single-functionalpractice--full .header--full .content, .featured_article--full .content, .leadership--full .header--full .content {
+    max-width: 1200px;
+    padding: 4em 0;
+  }
+}
+/* line 71, ../scss/modules/_headers.scss */
+.header-hero h1, .contact_page--full .header--full h1, .company--full .header--full h1, .single-functionalpractice--full .header--full h1, .featured_article--full h1, .leadership--full .header--full h1 {
+  text-transform: uppercase;
+  padding: 28px 0;
+  margin-bottom: 0;
+}
+/* line 77, ../scss/modules/_headers.scss */
+.header-hero .article_categories, .contact_page--full .header--full .article_categories, .company--full .header--full .article_categories, .single-functionalpractice--full .header--full .article_categories, .featured_article--full .article_categories, .leadership--full .header--full .article_categories {
+  display: inline-block;
+  position: relative;
+}
+/* line 97, ../scss/_mixins.scss */
+.header-hero .article_categories:before, .contact_page--full .header--full .article_categories:before, .company--full .header--full .article_categories:before, .single-functionalpractice--full .header--full .article_categories:before, .featured_article--full .article_categories:before, .leadership--full .header--full .article_categories:before, .header-hero .article_categories:after, .contact_page--full .header--full .article_categories:after, .company--full .header--full .article_categories:after, .single-functionalpractice--full .header--full .article_categories:after, .featured_article--full .article_categories:after, .leadership--full .header--full .article_categories:after {
+  content: "";
+  margin-top: -1px;
+  width: 20px;
+  height: 1px;
+  background: white;
+}
+@media only screen and (min-width: 800px) {
+  /* line 97, ../scss/_mixins.scss */
+  .header-hero .article_categories:before, .contact_page--full .header--full .article_categories:before, .company--full .header--full .article_categories:before, .single-functionalpractice--full .header--full .article_categories:before, .featured_article--full .article_categories:before, .leadership--full .header--full .article_categories:before, .header-hero .article_categories:after, .contact_page--full .header--full .article_categories:after, .company--full .header--full .article_categories:after, .single-functionalpractice--full .header--full .article_categories:after, .featured_article--full .article_categories:after, .leadership--full .header--full .article_categories:after {
+    width: 100px;
+  }
+}
+/* line 107, ../scss/_mixins.scss */
+.header-hero .article_categories:before, .contact_page--full .header--full .article_categories:before, .company--full .header--full .article_categories:before, .single-functionalpractice--full .header--full .article_categories:before, .featured_article--full .article_categories:before, .leadership--full .header--full .article_categories:before {
+  top: 50%;
+  left: -40px;
+  position: absolute;
+}
+@media only screen and (min-width: 800px) {
+  /* line 107, ../scss/_mixins.scss */
+  .header-hero .article_categories:before, .contact_page--full .header--full .article_categories:before, .company--full .header--full .article_categories:before, .single-functionalpractice--full .header--full .article_categories:before, .featured_article--full .article_categories:before, .leadership--full .header--full .article_categories:before {
+    top: 50%;
+    left: -120px;
+    position: absolute;
+  }
+}
+/* line 113, ../scss/_mixins.scss */
+.header-hero .article_categories:after, .contact_page--full .header--full .article_categories:after, .company--full .header--full .article_categories:after, .single-functionalpractice--full .header--full .article_categories:after, .featured_article--full .article_categories:after, .leadership--full .header--full .article_categories:after {
+  top: 50%;
+  right: -40px;
+  position: absolute;
+}
+@media only screen and (min-width: 800px) {
+  /* line 113, ../scss/_mixins.scss */
+  .header-hero .article_categories:after, .contact_page--full .header--full .article_categories:after, .company--full .header--full .article_categories:after, .single-functionalpractice--full .header--full .article_categories:after, .featured_article--full .article_categories:after, .leadership--full .header--full .article_categories:after {
+    top: 50%;
+    right: -120px;
+    position: absolute;
+  }
+}
+/* line 83, ../scss/modules/_headers.scss */
+.header-hero p, .contact_page--full .header--full p, .company--full .header--full p, .single-functionalpractice--full .header--full p, .featured_article--full p, .leadership--full .header--full p {
+  font-size: 1.1em;
+  max-width: 700px;
+  margin: auto;
+}
+/* line 92, ../scss/modules/_headers.scss */
+.header-hero a, .contact_page--full .header--full a, .company--full .header--full a, .single-functionalpractice--full .header--full a, .featured_article--full a, .leadership--full .header--full a {
+  color: white;
+}
+/* line 94, ../scss/modules/_headers.scss */
+.header-hero .btn-filled, .contact_page--full .header--full .btn-filled, .company--full .header--full .btn-filled, .single-functionalpractice--full .header--full .btn-filled, .featured_article--full .btn-filled, .leadership--full .header--full .btn-filled, .header-hero .btn, .contact_page--full .header--full .btn, .company--full .header--full .btn, .single-functionalpractice--full .header--full .btn, .featured_article--full .btn, .leadership--full .header--full .btn, .header-hero .wide-list li a, .wide-list li .header-hero a, .contact_page--full .header--full .wide-list li a, .wide-list li .contact_page--full .header--full a, .company--full .header--full .wide-list li a, .wide-list li .company--full .header--full a, .single-functionalpractice--full .header--full .wide-list li a, .wide-list li .single-functionalpractice--full .header--full a, .featured_article--full .wide-list li a, .wide-list li .featured_article--full a, .leadership--full .header--full .wide-list li a, .wide-list li .leadership--full .header--full a, .header-hero .functional_practice_specific li a, .functional_practice_specific li .header-hero a, .contact_page--full .header--full .functional_practice_specific li a, .functional_practice_specific li .contact_page--full .header--full a, .company--full .header--full .functional_practice_specific li a, .functional_practice_specific li .company--full .header--full a, .single-functionalpractice--full .header--full .functional_practice_specific li a, .functional_practice_specific li .single-functionalpractice--full .header--full a, .featured_article--full .functional_practice_specific li a, .functional_practice_specific li .featured_article--full a, .leadership--full .header--full .functional_practice_specific li a, .functional_practice_specific li .leadership--full .header--full a, .header-hero .wide-list > div a, .wide-list > div .header-hero a, .contact_page--full .header--full .wide-list > div a, .wide-list > div .contact_page--full .header--full a, .company--full .header--full .wide-list > div a, .wide-list > div .company--full .header--full a, .single-functionalpractice--full .header--full .wide-list > div a, .wide-list > div .single-functionalpractice--full .header--full a, .featured_article--full .wide-list > div a, .wide-list > div .featured_article--full a, .leadership--full .header--full .wide-list > div a, .wide-list > div .leadership--full .header--full a, .header-hero .functional_practice_specific > div a, .functional_practice_specific > div .header-hero a, .contact_page--full .header--full .functional_practice_specific > div a, .functional_practice_specific > div .contact_page--full .header--full a, .company--full .header--full .functional_practice_specific > div a, .functional_practice_specific > div .company--full .header--full a, .single-functionalpractice--full .header--full .functional_practice_specific > div a, .functional_practice_specific > div .single-functionalpractice--full .header--full a, .featured_article--full .functional_practice_specific > div a, .functional_practice_specific > div .featured_article--full a, .leadership--full .header--full .functional_practice_specific > div a, .functional_practice_specific > div .leadership--full .header--full a {
+  margin-top: 3em;
+}
+
+/* line 2, ../scss/modules/_nav.scss */
+.logo--nav {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transition: visibility 0.5s ease-in-out;
+  -moz-transition: visibility 0.5s ease-in-out;
+  transition: visibility 0.5s ease-in-out;
+  width: 200px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 2, ../scss/modules/_nav.scss */
+  .logo--nav {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 30%;
+    z-index: 0;
+    display: block;
+  }
+}
+@media only screen and (max-height: 500px) {
+  /* line 2, ../scss/modules/_nav.scss */
+  .logo--nav {
+    width: 200px;
+    min-width: 200px;
+  }
+}
+
+/* line 26, ../scss/modules/_nav.scss */
+.main_nav {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: #253e71;
+  padding: 3em 28px;
+  padding-bottom: 0;
+  padding-right: 0;
+  pointer-events: auto;
+  font-size: 1.2em;
+  line-height: 1.4;
+  overflow: hidden;
+}
+/* line 37, ../scss/modules/_nav.scss */
+.main_nav:after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 85%, #253e71 95%);
+  background-image: linear-gradient( rgba(37, 62, 113, 0) 85%, #253e71 95%);
+}
+/* line 44, ../scss/modules/_nav.scss */
+.main_nav .menu-main-navigation-container {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  padding: 1.5em 0 6em 0;
+  width: 105%;
+}
+@media only screen and (min-width: 800px) {
+  /* line 44, ../scss/modules/_nav.scss */
+  .main_nav .menu-main-navigation-container {
+    overflow: auto;
+    padding: 0;
+    padding-bottom: 6em;
+  }
+}
+/* line 58, ../scss/modules/_nav.scss */
+.main_nav li {
+  clear: both;
+  margin: 7px 0;
+  margin-bottom: 28px;
+}
+/* line 64, ../scss/modules/_nav.scss */
+.main_nav > li {
+  margin: 7px 0;
+}
+/* line 67, ../scss/modules/_nav.scss */
+.main_nav .current-menu-item > a {
+  font-weight: 900;
+  color: white;
+  position: relative;
+}
+/* line 87, ../scss/modules/_nav.scss */
+.main_nav li a {
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  display: inline-block;
+  -webkit-transition: background 0.6s ease-in-out, color 0.6s ease-in-out;
+  -moz-transition: background 0.6s ease-in-out, color 0.6s ease-in-out;
+  transition: background 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+/* line 96, ../scss/modules/_nav.scss */
+.main_nav li a:hover {
+  color: white;
+  -webkit-transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
+  -moz-transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+/* line 103, ../scss/modules/_nav.scss */
+.main_nav li li a {
+  color: #afc4d1;
+  font-size: 1em;
+  text-transform: none;
+}
+/* line 114, ../scss/modules/_nav.scss */
+.main_nav li li.menu-item-has-children > a {
+  color: #1c85df;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 600;
+}
+@media only screen and (min-width: 800px) {
+  /* line 112, ../scss/modules/_nav.scss */
+  .main_nav li li.menu-item-has-children {
+    float: left;
+    clear: none;
+  }
+  /* line 124, ../scss/modules/_nav.scss */
+  .main_nav li li.menu-item-has-children:first-of-type {
+    margin-right: 28px/2;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* line 26, ../scss/modules/_nav.scss */
+  .main_nav {
+    padding-top: 28px;
+    padding-left: 28px;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-height: 900px) {
+  /* line 26, ../scss/modules/_nav.scss */
+  .main_nav {
+    line-height: .9;
+  }
+  /* line 138, ../scss/modules/_nav.scss */
+  .main_nav:after {
+    background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 95%, #253e71 100%);
+    background-image: linear-gradient( rgba(37, 62, 113, 0) 95%, #253e71 100%);
+  }
+  /* line 141, ../scss/modules/_nav.scss */
+  .main_nav li {
+    margin-bottom: 14px;
+  }
+  /* line 144, ../scss/modules/_nav.scss */
+  .main_nav .sub-menu {
+    margin-bottom: 14px;
+  }
+  /* line 147, ../scss/modules/_nav.scss */
+  .main_nav .sub-menu .sub-menu {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-height: 500px) {
+  /* line 26, ../scss/modules/_nav.scss */
+  .main_nav {
+    width: 200px;
+  }
+}
+
+/* line 158, ../scss/modules/_nav.scss */
+#menu-item-56 {
+  padding-right: 28px;
+}
+
+/* line 162, ../scss/modules/_nav.scss */
+#menu-item-60 .sub-menu {
+  display: none;
+  max-width: 400px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 162, ../scss/modules/_nav.scss */
+  #menu-item-60 .sub-menu {
+    display: block;
+  }
+}
+/* line 172, ../scss/modules/_nav.scss */
+#menu-item-60 .sub-menu li {
+  clear: both;
+  float: none;
+}
+@media only screen and (min-width: 800px) {
+  /* line 172, ../scss/modules/_nav.scss */
+  #menu-item-60 .sub-menu li {
+    float: left;
+    clear: none;
+    width: 160px;
+    margin-right: 28px;
+  }
+}
+/* line 182, ../scss/modules/_nav.scss */
+#menu-item-60 .sub-menu li:nth-child(even) {
+  clear: both;
+  float: none;
+  display: block;
+}
+@media only screen and (min-width: 800px) {
+  /* line 182, ../scss/modules/_nav.scss */
+  #menu-item-60 .sub-menu li:nth-child(even) {
+    clear: none;
+    float: left;
+    margin-right: 0;
+    width: auto;
+  }
+}
+
+/* line 196, ../scss/modules/_nav.scss */
+.sub-menu {
+  margin-bottom: 28px;
+  *zoom: 1;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.sub-menu:before, .sub-menu:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.sub-menu:after {
+  clear: both;
+}
+/* line 201, ../scss/modules/_nav.scss */
+.sub-menu .sub-menu {
+  margin-bottom: 0;
+}
+/* line 205, ../scss/modules/_nav.scss */
+.sub-menu li {
+  margin-bottom: 7px;
+  min-width: 120px;
+}
+@media only screen and (max-height: 500px) {
+  /* line 196, ../scss/modules/_nav.scss */
+  .sub-menu {
+    display: none !important;
+  }
+}
+
+/* line 216, ../scss/modules/_nav.scss */
+.site_logo {
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.9);
+  pointer-events: auto;
+  -webkit-transition: -webkit-transform 700ms ease-in-out, opacity 500ms ease-in-out;
+  -moz-transition: -moz-transform 700ms ease-in-out, opacity 500ms ease-in-out;
+  transition: transform 700ms ease-in-out, opacity 500ms ease-in-out;
+}
+/* line 228, ../scss/modules/_nav.scss */
+.site_logo h1 {
+  display: inline-block;
+  float: left;
+}
+/* line 232, ../scss/modules/_nav.scss */
+.site_logo .currentPage {
+  font-size: 1em;
+  text-align: left;
+  padding: 0 2em;
+  font-weight: 300;
+  opacity: 0;
+  display: inline-block;
+  margin-left: 60px;
+  line-height: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translate3d(0, -200%, 0);
+  -moz-transform: translate3d(0, -200%, 0);
+  -ms-transform: translate3d(0, -200%, 0);
+  -o-transform: translate3d(0, -200%, 0);
+  transform: translate3d(0, -200%, 0);
+}
+/* line 247, ../scss/modules/_nav.scss */
+.site_logo a {
+  color: white;
+  font-size: .6em;
+  font-weight: 300;
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 50px;
+  letter-spacing: 2;
+}
+/* line 259, ../scss/modules/_nav.scss */
+.site_logo a:active {
+  top: 0;
+}
+@media only screen and (min-width: 800px) {
+  /* line 216, ../scss/modules/_nav.scss */
+  .site_logo {
+    top: 28px;
+    width: auto;
+    background: rgba(0, 0, 0, 0);
+  }
+  /* line 270, ../scss/modules/_nav.scss */
+  .site_logo.pin {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  /* line 273, ../scss/modules/_nav.scss */
+  .site_logo.pin h1 {
+    -webkit-transform: translate3d(0, -50%, 0);
+    -moz-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    -o-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    opacity: 0;
+  }
+  /* line 278, ../scss/modules/_nav.scss */
+  .site_logo.pin .currentPage {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  /* line 285, ../scss/modules/_nav.scss */
+  .site_logo:hover .site_icon {
+    background: #253e71;
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+  }
+  /* line 290, ../scss/modules/_nav.scss */
+  .site_logo h1, .site_logo .currentPage {
+    display: inline-block;
+    float: left;
+    -webkit-transition: -webkit-transform 700ms ease-in-out, opacity 500ms ease-in-out;
+    -moz-transition: -moz-transform 700ms ease-in-out, opacity 500ms ease-in-out;
+    transition: transform 700ms ease-in-out, opacity 500ms ease-in-out;
+  }
+  /* line 298, ../scss/modules/_nav.scss */
+  .site_logo a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 .5em;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+/* line 306, ../scss/modules/_nav.scss */
+.site_logo .site_icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  float: left;
+  background: black;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: background 0.8s ease-in-out;
+  -moz-transition: background 0.8s ease-in-out;
+  transition: background 0.8s ease-in-out;
+}
+@media only screen and (min-width: 800px) {
+  /* line 306, ../scss/modules/_nav.scss */
+  .site_logo .site_icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* line 318, ../scss/modules/_nav.scss */
+.site_logo .site_icon svg {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin: -15%;
+}
+/* line 322, ../scss/modules/_nav.scss */
+.site_logo .site_icon svg .style0 {
+  stroke: none;
+}
+/* line 325, ../scss/modules/_nav.scss */
+.site_logo .site_icon svg rect {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.2s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  -moz-transition: none;
+  transition: transform 0.2s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.2s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+}
+
+/* line 410, ../scss/modules/_nav.scss */
+.wide-nav, .insights_nav--full {
+  width: 100%;
+  *zoom: 1;
+  padding: 1em;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.wide-nav:before, .insights_nav--full:before, .wide-nav:after, .insights_nav--full:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.wide-nav:after, .insights_nav--full:after {
+  clear: both;
+}
+/* line 415, ../scss/modules/_nav.scss */
+.wide-nav ul, .insights_nav--full ul {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+/* line 421, ../scss/modules/_nav.scss */
+.wide-nav li, .insights_nav--full li {
+  display: inline-block;
+  padding: 1em 1%;
+}
+/* line 425, ../scss/modules/_nav.scss */
+.wide-nav a, .insights_nav--full a {
+  display: inline-block;
+  padding: 1em;
+  letter-spacing: 1px;
+}
+
+/* line 434, ../scss/modules/_nav.scss */
+.main_nav {
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  transition: transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+}
+@media only screen and (min-width: 800px) {
+  /* line 434, ../scss/modules/_nav.scss */
+  .main_nav {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* line 445, ../scss/modules/_nav.scss */
+#menu-main-navigation {
+  width: 160px;
+}
+@media only screen and (min-width: 800px) {
+  /* line 445, ../scss/modules/_nav.scss */
+  #menu-main-navigation {
+    width: 100%;
+  }
+}
+
+/* line 452, ../scss/modules/_nav.scss */
+.menu-main-navigation-container {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+@media only screen and (min-width: 800px) {
+  /* line 452, ../scss/modules/_nav.scss */
+  .menu-main-navigation-container {
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 1s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+    transition: transform 1s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 1s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  }
+}
+@media only screen and (min-width: 800px) and (min-width: 800px) {
+  /* line 452, ../scss/modules/_nav.scss */
+  .menu-main-navigation-container {
+    opacity: 0;
+    -webkit-transform: translate3d(-20%, 0, 0);
+    -moz-transform: translate3d(-20%, 0, 0);
+    -ms-transform: translate3d(-20%, 0, 0);
+    -o-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0);
+  }
+}
+
+/* line 465, ../scss/modules/_nav.scss */
+.site--content,
+.content {
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), -webkit-filter 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  -moz-transition: none;
+  transition: transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), filter 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  z-index: 1000;
+  position: relative;
+}
+
+/* line 473, ../scss/modules/_nav.scss */
+.nav_trigger {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), -webkit-filter 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+  -moz-transition: none;
+  transition: transform 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), opacity 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98), filter 0.8s cubic-bezier(0.18, 0.95, 0.34, 0.98);
+}
+/* line 483, ../scss/modules/_nav.scss */
+.nav--active .nav_trigger {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media only screen and (min-width: 800px) {
+  /* line 483, ../scss/modules/_nav.scss */
+  .nav--active .nav_trigger {
+    -webkit-transform: translate3d(30%, 0, 0);
+    -moz-transform: translate3d(30%, 0, 0);
+    -ms-transform: translate3d(30%, 0, 0);
+    -o-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+}
+@media only screen and (max-height: 500px) {
+  /* line 483, ../scss/modules/_nav.scss */
+  .nav--active .nav_trigger {
+    -webkit-transform: translate3d(200px, 0, 0);
+    -moz-transform: translate3d(200px, 0, 0);
+    -ms-transform: translate3d(200px, 0, 0);
+    -o-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+  }
+}
+
+/* line 496, ../scss/modules/_nav.scss */
+.site_logo {
+  left: 0;
+  top: 0;
+  z-index: 100000;
+}
+@media only screen and (min-width: 800px) {
+  /* line 496, ../scss/modules/_nav.scss */
+  .site_logo {
+    -webkit-transform: translate3d(0, 28px, 0);
+    -moz-transform: translate3d(0, 28px, 0);
+    -ms-transform: translate3d(0, 28px, 0);
+    -o-transform: translate3d(0, 28px, 0);
+    transform: translate3d(0, 28px, 0);
+  }
+}
+
+/* line 506, ../scss/modules/_nav.scss */
+.main_nav {
+  opacity: 0.5;
+}
+
+/* line 512, ../scss/modules/_nav.scss */
+.nav--active .logo--nav,
+.nav--active .main_nav,
+.nav--active .menu-main-navigation-container {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  display: block;
+  visibility: visible;
+}
+
+/* line 519, ../scss/modules/_nav.scss */
+.nav--active .site--content {
+  -webkit-transform: translate3d(200px, 0, 0);
+  -moz-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
+  -o-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+  pointer-events: auto;
+}
+@media only screen and (min-width: 800px) {
+  /* line 519, ../scss/modules/_nav.scss */
+  .nav--active .site--content {
+    -webkit-transform: translate3d(30%, 0, 0);
+    -moz-transform: translate3d(30%, 0, 0);
+    -ms-transform: translate3d(30%, 0, 0);
+    -o-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+}
+@media only screen and (max-height: 500px) {
+  /* line 519, ../scss/modules/_nav.scss */
+  .nav--active .site--content {
+    -webkit-transform: translate3d(200px, 0, 0);
+    -moz-transform: translate3d(200px, 0, 0);
+    -ms-transform: translate3d(200px, 0, 0);
+    -o-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+  }
+}
+
+/* line 612, ../scss/modules/_nav.scss */
+.home .logo--nav {
+  visibility: visible;
+  display: block;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 617, ../scss/modules/_nav.scss */
+  .home .menu-main-navigation-container {
+    -webkit-animation: fadeMoveIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeMoveOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    -moz-animation: fadeMoveIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeMoveOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    animation: fadeMoveIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeMoveOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 623, ../scss/modules/_nav.scss */
+  .main_nav {
+    -webkit-animation: fadeIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    -moz-animation: fadeIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    animation: fadeIn 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, fadeOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+  }
+}
+
+/* line 629, ../scss/modules/_nav.scss */
+.home .site--content {
+  background: black;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 634, ../scss/modules/_nav.scss */
+  .home .site--content,
+  .home .nav_trigger {
+    -webkit-animation: slideOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, slideBack 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    -moz-animation: slideOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, slideBack 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+    animation: slideOut 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 0.5s, slideBack 1.2s cubic-bezier(0.18, 0.95, 0.34, 0.98) 1.7s;
+  }
+}
+
+/* line 2, ../scss/modules/_pieces.scss */
+.tag, .case_study--type {
+  font-family: "Baskerville", serif;
+  font-weight: 100;
+  font-size: 1.6em;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 7px 28px;
+  display: inline-block;
+}
+
+/* line 14, ../scss/modules/_pieces.scss */
+.label, .header-hero .article_categories, .contact_page--full .header--full .article_categories, .company--full .header--full .article_categories, .single-functionalpractice--full .header--full .article_categories, .featured_article--full .article_categories, .leadership--full .header--full .article_categories, .tile-centered .title, .leader--full .title {
+  text-transform: uppercase;
+  letter-spacing: 1;
+}
+
+/* line 20, ../scss/modules/_pieces.scss */
+.page_badge {
+  height: 8em;
+  width: 8em;
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+/* line 29, ../scss/modules/_pieces.scss */
+.dark .page_badge {
+  background-color: rgba(230, 234, 237, 0.5);
+}
+/* line 33, ../scss/modules/_pieces.scss */
+.page_badge svg {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -20%;
+  height: 40%;
+  width: 40%;
+}
+/* line 40, ../scss/modules/_pieces.scss */
+.page_badge .style0 {
+  stroke: white;
+  fill: none;
+}
+
+/* line 47, ../scss/modules/_pieces.scss */
+.logo {
+  padding: 20%;
+}
+/* line 50, ../scss/modules/_pieces.scss */
+.logo .style1, .logo .style2 {
+  fill: black;
+  -webkit-transition: fill 0.3s ease-out;
+  -moz-transition: fill 0.3s ease-out;
+  transition: fill 0.3s ease-out;
+}
+/* line 55, ../scss/modules/_pieces.scss */
+.logo:hover .style1 {
+  fill: #1c85df;
+}
+
+/* line 63, ../scss/modules/_pieces.scss */
+.store_link {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 56px;
+  width: 60%;
+  margin: 0 auto 28px auto;
+}
+/* line 70, ../scss/modules/_pieces.scss */
+.store_link.apple_store {
+  background-image: url("../../img/icons/store-apple.svg");
+}
+/* line 73, ../scss/modules/_pieces.scss */
+.store_link.google_store {
+  background-image: url("../../img/icons/store-google_play.svg");
+  height: 63px;
+}
+/* line 77, ../scss/modules/_pieces.scss */
+.store_link.windows_store {
+  background-image: url("../../img/icons/store-windows.svg");
+}
+
+/* line 83, ../scss/modules/_pieces.scss */
+.connect dl {
+  *zoom: 1;
+  margin: 8em 0;
+  position: relative;
+  border: 2px solid white;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.connect dl:before, .connect dl:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.connect dl:after {
+  clear: both;
+}
+/* line 89, ../scss/modules/_pieces.scss */
+.connect dl dt, .connect dl dd {
+  display: inline-block;
+}
+/* line 92, ../scss/modules/_pieces.scss */
+.connect dl dt {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2;
+  padding: 28px;
+  margin: 0;
+  line-height: 2;
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+@media only screen and (min-width: 800px) {
+  /* line 92, ../scss/modules/_pieces.scss */
+  .connect dl dt {
+    width: 60%;
+    border-bottom: none;
+  }
+}
+/* line 107, ../scss/modules/_pieces.scss */
+.connect dl dd {
+  width: 50%;
+  display: block;
+  float: left;
+  border-left: 2px solid white;
+  padding: 28px 0;
+  height: 80px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: 10%;
+  -moz-background-size: 10%;
+  background-size: 10%;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+/* line 116, ../scss/modules/_pieces.scss */
+.connect dl dd a {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+/* line 120, ../scss/modules/_pieces.scss */
+.connect dl dd:nth-of-type(1) {
+  border-left: none;
+}
+@media only screen and (min-width: 800px) {
+  /* line 107, ../scss/modules/_pieces.scss */
+  .connect dl dd {
+    width: 20%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-background-size: 15%;
+    -moz-background-size: 15%;
+    background-size: 15%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  /* line 128, ../scss/modules/_pieces.scss */
+  .connect dl dd:nth-of-type(1) {
+    right: 20%;
+    border-left: 2px solid white;
+  }
+}
+/* line 134, ../scss/modules/_pieces.scss */
+.connect dl dd:hover {
+  -webkit-transition: background-color 0.1s ease-in-out;
+  -moz-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+  background-color: #253e71;
+}
+/* line 139, ../scss/modules/_pieces.scss */
+.connect dl a {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+
+/* line 145, ../scss/modules/_pieces.scss */
+.social-links {
+  margin-top: 4em;
+}
+/* line 148, ../scss/modules/_pieces.scss */
+.social-links li {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 2em;
+}
+@media only screen and (min-width: 800px) {
+  /* line 148, ../scss/modules/_pieces.scss */
+  .social-links li {
+    height: 2em;
+    width: 2em;
+  }
+}
+/* line 159, ../scss/modules/_pieces.scss */
+.social-links li a {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+/* line 163, ../scss/modules/_pieces.scss */
+.social-links li:hover .style1 {
+  fill: white;
+}
+/* line 168, ../scss/modules/_pieces.scss */
+.social-links .style1 {
+  fill: #afc4d1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 180, ../scss/modules/_pieces.scss */
+.star_rating-4 polygon:nth-last-child(-n+1) {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+/* line 186, ../scss/modules/_pieces.scss */
+.star_rating-3 polygon:nth-last-child(-n+2) {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+/* line 192, ../scss/modules/_pieces.scss */
+.star_rating-2 polygon:nth-last-child(-n+3) {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+/* line 198, ../scss/modules/_pieces.scss */
+.star_rating-1 polygon:nth-last-child(-n+4) {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+/* line 7, ../scss/modules/_presentation.scss */
+.project-tesla .bg_img_wrapper {
+  background-image: url("../../img/header-tesla.jpg");
+}
+
+/* line 15, ../scss/modules/_presentation.scss */
+.project-indigo .bg_img_wrapper {
+  background-image: url("../../img/header-indigo.jpg");
+}
+
+/* line 23, ../scss/modules/_presentation.scss */
+.project-vu .bg_img_wrapper {
+  background-image: url("../../img/header-vu.jpg");
+}
+
+/* line 29, ../scss/modules/_presentation.scss */
+.project-500px {
+  background-color: #4D1747;
+}
+/* line 31, ../scss/modules/_presentation.scss */
+.project-500px .bg_img_wrapper {
+  background-image: url("../../img/header-500px.jpg");
+}
+
+/* line 5, ../scss/modules/_rich-lists.scss */
+.summary_list h1, .industry_practices_list h1 {
+  margin-bottom: 1em !important;
+}
+/* line 10, ../scss/modules/_rich-lists.scss */
+.summary_list li, .industry_practices_list li, .summary_list > div, .industry_practices_list > div {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 0 28px 0;
+  width: 100%;
+}
+/* line 20, ../scss/modules/_rich-lists.scss */
+.summary_list li:hover .style0, .industry_practices_list li:hover .style0,
+.summary_list li:hover .style1,
+.industry_practices_list li:hover .style1, .summary_list > div:hover .style0, .industry_practices_list > div:hover .style0,
+.summary_list > div:hover .style1,
+.industry_practices_list > div:hover .style1 {
+  stroke: #1c85df;
+}
+@media only screen and (min-width: 1200px) {
+  /* line 10, ../scss/modules/_rich-lists.scss */
+  .summary_list li, .industry_practices_list li, .summary_list > div, .industry_practices_list > div {
+    width: 45%;
+    min-width: 270px;
+    padding-right: 2em;
+  }
+}
+/* line 31, ../scss/modules/_rich-lists.scss */
+.summary_list li:nth-of-type(2n+1), .industry_practices_list li:nth-of-type(2n+1), .summary_list > div:nth-of-type(2n+1), .industry_practices_list > div:nth-of-type(2n+1) {
+  clear: both;
+  margin-right: 5%;
+}
+/* line 36, ../scss/modules/_rich-lists.scss */
+.summary_list li p, .industry_practices_list li p, .summary_list > div p, .industry_practices_list > div p {
+  margin-bottom: 1em !important;
+}
+/* line 40, ../scss/modules/_rich-lists.scss */
+.summary_list li a, .industry_practices_list li a, .summary_list > div a, .industry_practices_list > div a {
+  color: #1c85df;
+  font-weight: 600;
+  letter-spacing: 1;
+}
+
+/* line 49, ../scss/modules/_rich-lists.scss */
+.vertical_list, .benefits, .functional_practices_list {
+  text-align: center;
+  background: none;
+  position: relative;
+  margin: 2rem 0;
+  padding: 0;
+}
+@media only screen and (min-width: 800px) {
+  /* line 49, ../scss/modules/_rich-lists.scss */
+  .vertical_list, .benefits, .functional_practices_list {
+    border-left: 1px solid #e4e7eb;
+  }
+}
+/* line 60, ../scss/modules/_rich-lists.scss */
+.vertical_list a, .benefits a, .functional_practices_list a {
+  margin: auto;
+  margin-bottom: 28px;
+  display: block;
+}
+/* line 66, ../scss/modules/_rich-lists.scss */
+.vertical_list > div, .benefits > div, .functional_practices_list > div {
+  background: none !important;
+}
+/* line 69, ../scss/modules/_rich-lists.scss */
+.vertical_list h2, .benefits h2, .functional_practices_list h2, .benefits dt, .vertical_list .dark .title, .dark .vertical_list .title, .benefits .dark .title, .dark .benefits .title, .functional_practices_list .dark .title, .dark .functional_practices_list .title, .vertical_list .summary_list h1, .summary_list .vertical_list h1, .benefits .summary_list h1, .summary_list .benefits h1, .functional_practices_list .summary_list h1, .summary_list .functional_practices_list h1, .vertical_list .industry_practices_list h1, .industry_practices_list .vertical_list h1, .benefits .industry_practices_list h1, .industry_practices_list .benefits h1, .functional_practices_list .industry_practices_list h1, .industry_practices_list .functional_practices_list h1 {
+  margin-bottom: 4em;
+  padding-top: 0;
+}
+/* line 74, ../scss/modules/_rich-lists.scss */
+.vertical_list h3, .benefits h3, .functional_practices_list h3 {
+  padding: 1em 0;
+}
+/* line 81, ../scss/modules/_rich-lists.scss */
+.vertical_list .badge, .benefits .badge, .functional_practices_list .badge {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  background-color: black;
+  display: block;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+/* line 90, ../scss/modules/_rich-lists.scss */
+.vertical_list .badge svg, .benefits .badge svg, .functional_practices_list .badge svg {
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -25%;
+}
+/* line 95, ../scss/modules/_rich-lists.scss */
+.vertical_list .badge .style0, .benefits .badge .style0, .functional_practices_list .badge .style0 {
+  stroke: white;
+  fill: none;
+}
+/* line 99, ../scss/modules/_rich-lists.scss */
+.vertical_list .badge .bg_img_wrapper, .benefits .badge .bg_img_wrapper, .functional_practices_list .badge .bg_img_wrapper {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  opacity: .5;
+  top: -5px;
+}
+/* line 107, ../scss/modules/_rich-lists.scss */
+.vertical_list article:hover .bg_img_wrapper, .benefits article:hover .bg_img_wrapper, .functional_practices_list article:hover .bg_img_wrapper {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -webkit-transform: scale(2);
+  opacity: 1;
+}
+
+/* line 116, ../scss/modules/_rich-lists.scss */
+.column_list, .capabilities_list {
+  clear: both;
+  line-height: 1.5;
+}
+/* line 120, ../scss/modules/_rich-lists.scss */
+.column_list h2, .capabilities_list h2, .column_list .benefits dt, .benefits .column_list dt, .capabilities_list .benefits dt, .benefits .capabilities_list dt, .column_list .dark .title, .dark .column_list .title, .capabilities_list .dark .title, .dark .capabilities_list .title, .column_list .summary_list h1, .summary_list .column_list h1, .capabilities_list .summary_list h1, .summary_list .capabilities_list h1, .column_list .industry_practices_list h1, .industry_practices_list .column_list h1, .capabilities_list .industry_practices_list h1, .industry_practices_list .capabilities_list h1 {
+  text-align: center;
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+}
+/* line 143, ../scss/_mixins.scss */
+.column_list h2:after, .capabilities_list h2:after, .column_list .benefits dt:after, .benefits .column_list dt:after, .capabilities_list .benefits dt:after, .benefits .capabilities_list dt:after, .column_list .dark .title:after, .dark .column_list .title:after, .capabilities_list .dark .title:after, .dark .capabilities_list .title:after, .column_list .summary_list h1:after, .summary_list .column_list h1:after, .capabilities_list .summary_list h1:after, .summary_list .capabilities_list h1:after, .column_list .industry_practices_list h1:after, .industry_practices_list .column_list h1:after, .capabilities_list .industry_practices_list h1:after, .industry_practices_list .capabilities_list h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  margin-left: -25px;
+  width: 40px;
+  height: 4px;
+  background: black;
+}
+@media only screen and (min-width: 800px) {
+  /* line 120, ../scss/modules/_rich-lists.scss */
+  .column_list h2, .capabilities_list h2, .column_list .benefits dt, .benefits .column_list dt, .capabilities_list .benefits dt, .benefits .capabilities_list dt, .column_list .dark .title, .dark .column_list .title, .capabilities_list .dark .title, .dark .capabilities_list .title, .column_list .summary_list h1, .summary_list .column_list h1, .capabilities_list .summary_list h1, .summary_list .capabilities_list h1, .column_list .industry_practices_list h1, .industry_practices_list .column_list h1, .capabilities_list .industry_practices_list h1, .industry_practices_list .capabilities_list h1 {
+    text-align: left;
+    position: relative;
+    padding-bottom: 28;
+    margin-bottom: 28;
+  }
+  /* line 143, ../scss/_mixins.scss */
+  .column_list h2:after, .capabilities_list h2:after, .column_list .benefits dt:after, .benefits .column_list dt:after, .capabilities_list .benefits dt:after, .benefits .capabilities_list dt:after, .column_list .dark .title:after, .dark .column_list .title:after, .capabilities_list .dark .title:after, .dark .capabilities_list .title:after, .column_list .summary_list h1:after, .summary_list .column_list h1:after, .capabilities_list .summary_list h1:after, .summary_list .capabilities_list h1:after, .column_list .industry_practices_list h1:after, .industry_practices_list .column_list h1:after, .capabilities_list .industry_practices_list h1:after, .industry_practices_list .capabilities_list h1:after {
+    bottom: 0;
+    left: 0%;
+    position: absolute;
+    content: "";
+    margin-left: 0px;
+    width: 40px;
+    height: 4px;
+    background: black;
+  }
+}
+/* line 129, ../scss/modules/_rich-lists.scss */
+.column_list ul, .capabilities_list ul {
+  padding-left: 0;
+  *zoom: 1;
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.column_list ul:before, .capabilities_list ul:before, .column_list ul:after, .capabilities_list ul:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.column_list ul:after, .capabilities_list ul:after {
+  clear: both;
+}
+/* line 134, ../scss/modules/_rich-lists.scss */
+.column_list li, .capabilities_list li {
+  padding-left: 0;
+  padding-right: 1rem;
+  margin: 1rem 0 0 0;
+  list-style: none;
+  text-align: center;
+}
+@media only screen and (min-width: 800px) {
+  /* line 134, ../scss/modules/_rich-lists.scss */
+  .column_list li, .capabilities_list li {
+    text-align: left;
+    float: left;
+    width: 25%;
+    font-size: .9em;
+  }
+}
+
+/* line 149, ../scss/modules/_rich-lists.scss */
+.wide-list, .functional_practice_specific {
+  width: 100% !important;
+  margin: 0 !important;
+  max-width: none !important;
+}
+/* line 154, ../scss/modules/_rich-lists.scss */
+.wide-list li, .functional_practice_specific li, .wide-list > div, .functional_practice_specific > div {
+  display: block;
+  padding: 8em 2em;
+  text-align: center;
+  margin: auto;
+}
+@media only screen and (min-width: 800px) {
+  /* line 154, ../scss/modules/_rich-lists.scss */
+  .wide-list li, .functional_practice_specific li, .wide-list > div, .functional_practice_specific > div {
+    padding: 8em 5em;
+  }
+}
+/* line 164, ../scss/modules/_rich-lists.scss */
+.wide-list li:nth-of-type(even), .functional_practice_specific li:nth-of-type(even), .wide-list > div:nth-of-type(even), .functional_practice_specific > div:nth-of-type(even) {
+  background: black;
+  color: white;
+}
+/* line 168, ../scss/modules/_rich-lists.scss */
+.wide-list li:nth-of-type(even) a, .functional_practice_specific li:nth-of-type(even) a, .wide-list > div:nth-of-type(even) a, .functional_practice_specific > div:nth-of-type(even) a {
+  color: white !important;
+  border-color: white;
+}
+/* line 173, ../scss/modules/_rich-lists.scss */
+.wide-list li p, .functional_practice_specific li p, .wide-list > div p, .functional_practice_specific > div p {
+  max-width: 1200px;
+  margin: auto;
+}
+@media only screen and (min-width: 800px) {
+  /* line 173, ../scss/modules/_rich-lists.scss */
+  .wide-list li p, .functional_practice_specific li p, .wide-list > div p, .functional_practice_specific > div p {
+    width: 60%;
+  }
+}
+/* line 180, ../scss/modules/_rich-lists.scss */
+.wide-list li a, .functional_practice_specific li a, .wide-list > div a, .functional_practice_specific > div a {
+  color: black !important;
+  font-weight: 700 !important;
+  font-size: .8em;
+}
+/* line 185, ../scss/modules/_rich-lists.scss */
+.wide-list li a:hover, .functional_practice_specific li a:hover, .wide-list > div a:hover, .functional_practice_specific > div a:hover {
+  color: white !important;
+}
+
+/* line 1, ../scss/modules/_sidebar.scss */
+.sidebar {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+@media only screen and (min-width: 800px) {
+  /* line 1, ../scss/modules/_sidebar.scss */
+  .sidebar {
+    width: 30%;
+    min-width: 280px;
+    margin-right: -17%;
+    float: right;
+    clear: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 1, ../scss/modules/_sidebar.scss */
+  .sidebar {
+    margin-right: 0;
+  }
+}
+
+/* line 19, ../scss/modules/_sidebar.scss */
+aside {
+  background-color: #d3d8e2;
+  text-align: center;
+  width: 100%;
+  padding-top: 56px;
+}
+/* line 25, ../scss/modules/_sidebar.scss */
+aside h3 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 700;
+  padding: 28px;
+  line-height: 2;
+  letter-spacing: 1;
+}
+/* line 33, ../scss/modules/_sidebar.scss */
+aside .contact_prompt--full {
+  padding: 0 28px 56px 28px;
+}
+/* line 39, ../scss/modules/_sidebar.scss */
+aside a {
+  margin: 28px 0;
+  display: inline-block;
+}
+/* line 47, ../scss/modules/_sidebar.scss */
+aside .related_case_studies h3,
+aside .related_capabilities h3,
+aside .related_insights h3 {
+  background-color: #b8c0d0;
+}
+/* line 55, ../scss/modules/_sidebar.scss */
+aside .related_case_studies article,
+aside .related_insights article,
+aside .video_case_study article {
+  position: relative;
+  height: 320px;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  overflow: hidden;
+  background-color: black;
+}
+/* line 63, ../scss/modules/_sidebar.scss */
+aside .related_case_studies .bg_img_wrapper,
+aside .related_insights .bg_img_wrapper,
+aside .video_case_study .bg_img_wrapper {
+  opacity: .5;
+  -webkit-transition-duration: 2.5s;
+  -moz-transition-duration: 2.5s;
+  transition-duration: 2.5s;
+}
+/* line 67, ../scss/modules/_sidebar.scss */
+aside .related_case_studies a,
+aside .related_insights a,
+aside .video_case_study a {
+  font-family: "Baskerville", serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: white;
+  padding: 0 28px;
+}
+/* line 74, ../scss/modules/_sidebar.scss */
+aside .related_case_studies:hover .bg_img_wrapper,
+aside .related_insights:hover .bg_img_wrapper,
+aside .video_case_study:hover .bg_img_wrapper {
+  opacity: 0.25;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+/* line 79, ../scss/modules/_sidebar.scss */
+aside .related_capabilities article {
+  padding: 28px 0;
+  padding-top: 14px;
+}
+/* line 82, ../scss/modules/_sidebar.scss */
+aside .related_capabilities article p {
+  padding: 1.5em;
+  font-size: .9em;
+}
+
+/* line 89, ../scss/modules/_sidebar.scss */
+.accolades {
+  line-height: 2;
+  padding-bottom: 3em;
+}
+/* line 95, ../scss/modules/_sidebar.scss */
+.accolades .client_logo,
+.accolades h3,
+.accolades p {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+/* line 99, ../scss/modules/_sidebar.scss */
+.accolades .client_logo {
+  height: 5em;
+  width: 80%;
+  margin: 1em auto 5em auto;
+}
+/* line 104, ../scss/modules/_sidebar.scss */
+.accolades h3 {
+  color: black;
+  padding-bottom: 0;
+}
+/* line 108, ../scss/modules/_sidebar.scss */
+.accolades h4 {
+  margin-bottom: .5em;
+  letter-spacing: 1;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+/* line 114, ../scss/modules/_sidebar.scss */
+.accolades p {
+  font-size: .9em;
+  margin-bottom: 3em;
+}
+/* line 119, ../scss/modules/_sidebar.scss */
+.accolades div[class^='star_rating'] {
+  font-size: .9em;
+  margin-bottom: 2em;
+}
+/* line 123, ../scss/modules/_sidebar.scss */
+.accolades div[class^='star_rating'] svg {
+  display: block;
+  height: 1.5em;
+  margin: auto;
+  margin-bottom: 1em;
+}
+/* line 131, ../scss/modules/_sidebar.scss */
+.accolades nav {
+  padding-top: 28px;
+}
+
+/* line 137, ../scss/modules/_sidebar.scss */
+.video_case_study a {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: 40%;
+  -moz-background-size: 40%;
+  background-size: 40%;
+  background-image: url("../../img/icons/icon-play_video.png");
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../scss/modules/_tile.scss */
+.tile, .case_study--full, .insight, .tile-centered, .leader--full {
+  position: relative;
+  padding: 28px;
+  min-height: 490px;
+  height: 40%;
+  width: 100%;
+  overflow: hidden;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 15, ../scss/_mixins.scss */
+.tile:after, .case_study--full:after, .insight:after, .tile-centered:after, .leader--full:after {
+  content: "";
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background-image: linear-gradient(to ,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+@media only screen and (min-width: 800px) {
+  /* line 1, ../scss/modules/_tile.scss */
+  .tile, .case_study--full, .insight, .tile-centered, .leader--full {
+    min-height: 460px;
+    width: 33.3333333333333%;
+    margin-right: -1px;
+    float: left;
+  }
+}
+/* line 17, ../scss/modules/_tile.scss */
+.tile .content, .case_study--full .content, .insight .content, .tile-centered .content, .leader--full .content {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  padding: 28px;
+  z-index: 1;
+}
+/* line 22, ../scss/modules/_tile.scss */
+.tile .content a, .case_study--full .content a, .insight .content a, .tile-centered .content a, .leader--full .content a {
+  color: white;
+}
+/* line 26, ../scss/modules/_tile.scss */
+.tile .content p, .case_study--full .content p, .insight .content p, .tile-centered .content p, .leader--full .content p, .tile .content h1, .case_study--full .content h1, .insight .content h1, .tile-centered .content h1, .leader--full .content h1 {
+  text-transform: none;
+}
+/* line 31, ../scss/modules/_tile.scss */
+.tile h1, .case_study--full h1, .insight h1, .tile-centered h1, .leader--full h1 {
+  font-family: "Baskerville", serif;
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+  margin-top: 14;
+}
+/* line 125, ../scss/_mixins.scss */
+.tile h1:after, .case_study--full h1:after, .insight h1:after, .tile-centered h1:after, .leader--full h1:after {
+  bottom: 0;
+  left: 0%;
+  position: absolute;
+  content: "";
+  width: 20px;
+  margin-left: 0px;
+  height: 1px;
+  background: white;
+}
+@media only screen and (min-width: 800px) {
+  /* line 125, ../scss/_mixins.scss */
+  .tile h1:after, .case_study--full h1:after, .insight h1:after, .tile-centered h1:after, .leader--full h1:after {
+    margin-left: 0px;
+    width: 100px;
+  }
+}
+/* line 37, ../scss/modules/_tile.scss */
+.tile .tag, .case_study--full .tag, .insight .tag, .tile-centered .tag, .leader--full .tag, .tile .case_study--type, .case_study--full .case_study--type, .insight .case_study--type, .tile-centered .case_study--type, .leader--full .case_study--type {
+  right: 0;
+  position: absolute;
+}
+/* line 41, ../scss/modules/_tile.scss */
+.tile .bg_img_wrapper, .case_study--full .bg_img_wrapper, .insight .bg_img_wrapper, .tile-centered .bg_img_wrapper, .leader--full .bg_img_wrapper {
+  -webkit-transition: -webkit-transform 2s ease-in-out, -webkit-filter 2s ease-in-out, opacity 2s ease-in-out;
+  transition: transform 2s ease-in-out, filter 2s ease-in-out, opacity 2s ease-in-out;
+  -webkit-transition-duration: 2.5s;
+  -moz-transition-duration: 2.5s;
+  transition-duration: 2.5s;
+}
+/* line 46, ../scss/modules/_tile.scss */
+.tile:hover .bg_img_wrapper, .case_study--full:hover .bg_img_wrapper, .insight:hover .bg_img_wrapper, .tile-centered:hover .bg_img_wrapper, .leader--full:hover .bg_img_wrapper {
+  opacity: 0.25;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/* line 52, ../scss/modules/_tile.scss */
+.tile-centered, .leader--full {
+  text-align: center;
+}
+/* line 56, ../scss/modules/_tile.scss */
+.tile-centered h1, .leader--full h1 {
+  position: relative;
+  padding-bottom: 28;
+  margin-bottom: 28;
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+/* line 125, ../scss/_mixins.scss */
+.tile-centered h1:after, .leader--full h1:after {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  content: "";
+  width: 20px;
+  margin-left: -50px;
+  height: 1px;
+  background: white;
+}
+@media only screen and (min-width: 800px) {
+  /* line 125, ../scss/_mixins.scss */
+  .tile-centered h1:after, .leader--full h1:after {
+    margin-left: -50px;
+    width: 100px;
+  }
+}
+/* line 61, ../scss/modules/_tile.scss */
+.tile-centered .title, .leader--full .title {
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  font-weight: 700;
+}
+/* line 67, ../scss/modules/_tile.scss */
+.tile-centered p, .leader--full p {
+  -webkit-transition-delay: 0.6s;
+  -moz-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+  display: none;
+}
+
+/* line 23, ../scss/styles.scss */
+h2[rel="author"], .benefits dt[rel="author"], .dark [rel="author"].title, .summary_list h1[rel="author"], .industry_practices_list h1[rel="author"] {
+  margin-top: 0 !important;
+  margin-bottom: 2em !important;
+  padding: 0 !important;
+}
