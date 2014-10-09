@@ -98,7 +98,7 @@ a {
 @media only screen and (min-width: 800px) {
   /* line 37, ../scss/_global.scss */
   .site--content {
-    padding-bottom: 8em;
+    padding-bottom: 38em;
   }
 }
 
@@ -1867,6 +1867,20 @@ a.fancy:after, .summary_list li a:after, .industry_practices_list li a:after, .s
     z-index: 1;
   }
 }
+
+ul.social-widgets {
+  list-style-type: none;
+  /* float: left; */
+  /* clear: both; */
+}
+
+.social-widgets li {
+  float: left;
+  margin-top: 46px;
+  margin-left: 23px;
+  margin-right 23px;
+}
+
 /* line 51, ../scss/modules/_footer.scss */
 .footer--full footer {
   background-color: #253e71;
@@ -1877,9 +1891,18 @@ a.fancy:after, .summary_list li a:after, .industry_practices_list li a:after, .s
   padding: 4em 0;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  /* line 51, ../scss/modules/_footer.scss */
+  .footer--full footer {
+    height: 95em;
+  }
+}
+
+
 /* line 60, ../scss/modules/_footer.scss */
 .footer--full footer p {
-  padding: 0 4em;
+  padding: 4em 4em;
 }
 /* line 65, ../scss/modules/_footer.scss */
 .footer--full footer .style0,
@@ -1890,10 +1913,11 @@ a.fancy:after, .summary_list li a:after, .industry_practices_list li a:after, .s
 .footer--full footer .social-links svg {
   max-height: 30px;
 }
+
 @media only screen and (min-width: 800px) {
   /* line 51, ../scss/modules/_footer.scss */
   .footer--full footer {
-    height: 8em;
+    height: 38em;
     line-height: 8em;
     overflow: hidden;
     text-align: left;
