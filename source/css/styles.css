@@ -1897,6 +1897,10 @@ ul.social-widgets {
   .footer--full footer {
     height: 95em;
   }
+  .social-widgets li {
+    padding-left: 4px;
+    margin-left: 0px;
+  }
 }
 
 
