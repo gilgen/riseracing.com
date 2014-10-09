@@ -1,1 +1,1 @@
-middleman: middleman server --verbose --force-polling
+middleman: bundle exec middleman server
