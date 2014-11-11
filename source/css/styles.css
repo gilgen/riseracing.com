@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+
+li#newsletters {
+  margin-top: 11px !important;
+}
+
 /* line 62, ../scss/_typography.scss */
 p {
   font-size: 14px;
