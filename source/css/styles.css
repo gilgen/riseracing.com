@@ -649,7 +649,7 @@ a.fancy:after, .summary_list li a:after, .industry_practices_list li a:after, .s
 }
 /* line 503, ../scss/_global.scss */
 .featured_article--full .bg_img_wrapper {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 /* line 512, ../scss/_global.scss */
 .featured_article--full p {
