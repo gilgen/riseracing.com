@@ -5,7 +5,7 @@
   <id>http://riseracing.com</id>
   <link href="http://riseracing.com"/>
   <link href="http://riseracing.com/feed.xml" rel="self"/>
-  <updated>2012-01-01T00:00:00-05:00</updated>
+  <updated>2011-12-31T22:00:00-07:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Example Article</title>
     <link rel="alternate" href="http://riseracing.com/2012/01/01/example-article/"/>
     <id>http://riseracing.com/2012/01/01/example-article/</id>
-    <published>2012-01-01T00:00:00-05:00</published>
-    <updated>2014-10-03T23:58:59-04:00</updated>
+    <published>2011-12-31T22:00:00-07:00</published>
+    <updated>2014-11-18T08:54:58-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>

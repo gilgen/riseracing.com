@@ -84,7 +84,7 @@ html {
 
 /* line 21, ../scss/_global.scss */
 body {
-  background: black;
+  background: #111;
   color: white;
   overflow: hidden;
 }
@@ -104,7 +104,7 @@ a {
 @media only screen and (min-width: 800px) {
   /* line 37, ../scss/_global.scss */
   .site--content {
-    padding-bottom: 38em;
+    padding-bottom: 8em;
   }
 }
 
@@ -1889,8 +1889,8 @@ ul.social-widgets {
 
 /* line 51, ../scss/modules/_footer.scss */
 .footer--full footer {
-  background-color: #253e71;
-  color: #afc4d1;
+  background-color: #262626;
+  color: #eee;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1.2;
@@ -1927,7 +1927,7 @@ ul.social-widgets {
 @media only screen and (min-width: 800px) {
   /* line 51, ../scss/modules/_footer.scss */
   .footer--full footer {
-    height: 38em;
+    height: 8em;
     line-height: 8em;
     overflow: hidden;
     text-align: left;
@@ -2274,7 +2274,7 @@ ul.social-widgets {
   bottom: 0;
   left: 0;
   position: absolute;
-  background: #253e71;
+  background: #111;
   padding: 3em 28px;
   padding-bottom: 0;
   padding-right: 0;
@@ -2292,8 +2292,8 @@ ul.social-widgets {
   left: 0;
   position: absolute;
   pointer-events: none;
-  background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 85%, #253e71 95%);
-  background-image: linear-gradient( rgba(37, 62, 113, 0) 85%, #253e71 95%);
+  background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 85%, #111 95%);
+  background-image: linear-gradient( rgba(37, 62, 113, 0) 85%, #111 95%);
 }
 /* line 44, ../scss/modules/_nav.scss */
 .main_nav .menu-main-navigation-container {
@@ -2384,8 +2384,8 @@ ul.social-widgets {
   }
   /* line 138, ../scss/modules/_nav.scss */
   .main_nav:after {
-    background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 95%, #253e71 100%);
-    background-image: linear-gradient( rgba(37, 62, 113, 0) 95%, #253e71 100%);
+    background-image: -webkit-linear-gradient( rgba(37, 62, 113, 0) 95%, #111 100%);
+    background-image: linear-gradient( rgba(37, 62, 113, 0) 95%, #111 100%);
   }
   /* line 141, ../scss/modules/_nav.scss */
   .main_nav li {
@@ -2504,9 +2504,9 @@ ul.social-widgets {
 }
 /* line 232, ../scss/modules/_nav.scss */
 .site_logo .currentPage {
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: left;
-  padding: 0 2em;
+  padding: 0 1em;
   font-weight: 300;
   opacity: 0;
   display: inline-block;
@@ -2573,7 +2573,7 @@ ul.social-widgets {
   }
   /* line 285, ../scss/modules/_nav.scss */
   .site_logo:hover .site_icon {
-    background: #253e71;
+    background: #990000;
     -webkit-transition: background 0.2s ease-in-out;
     -moz-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
@@ -2878,13 +2878,13 @@ ul.social-widgets {
 
 /* line 2, ../scss/modules/_pieces.scss */
 .tag, .case_study--type {
-  font-family: "Baskerville", serif;
   font-weight: 100;
   font-size: 1.6em;
-  font-style: italic;
   background: rgba(0, 0, 0, 0.5);
   padding: 7px 28px;
   display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* line 14, ../scss/modules/_pieces.scss */
@@ -3618,7 +3618,7 @@ aside .related_capabilities article p {
   bottom: 0;
   left: 0;
   position: absolute;
-  padding: 28px;
+  padding: 45px;
   z-index: 1;
 }
 /* line 22, ../scss/modules/_tile.scss */
@@ -3657,7 +3657,7 @@ aside .related_capabilities article p {
 }
 /* line 37, ../scss/modules/_tile.scss */
 .tile .tag, .case_study--full .tag, .insight .tag, .tile-centered .tag, .leader--full .tag, .tile .case_study--type, .case_study--full .case_study--type, .insight .case_study--type, .tile-centered .case_study--type, .leader--full .case_study--type {
-  right: 0;
+  left: 0;
   position: absolute;
 }
 /* line 41, ../scss/modules/_tile.scss */
@@ -3729,4 +3729,25 @@ h2[rel="author"], .benefits dt[rel="author"], .dark [rel="author"].title, .summa
   margin-top: 0 !important;
   margin-bottom: 2em !important;
   padding: 0 !important;
+}
+
+.article--content {
+  padding: 60px 20px 70px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.home .article--content {
+  padding: 0;
+  max-width: 100%;
+}
+.home .article--content ul {
+  padding: 0;
+  margin: 0;
+}
+.article--content ul {
+  margin: 1.5em 0;
+  padding: 0 0 0 1.5em;
+}
+.article--content p {
+  margin: 1em 0;
 }
